@@ -1,3 +1,7 @@
+import data from "./data.json";
+
+const { hero } = data;
+
 const Hero = () => {
   return (
     <>
@@ -5,7 +9,7 @@ const Hero = () => {
       <section className="hero-section d-flex align-items-center" id="intro">
         <div className="intro_text">
           <svg viewBox="0 0 1320 300">
-            <text x="50%" y="50%" text-anchor="middle">
+            <text x="50%" y="50%" textAnchor="middle">
               HI
             </text>
           </svg>
@@ -14,14 +18,11 @@ const Hero = () => {
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="hero-content-box">
-                <span className="hero-sub-title">I am Saïfoulaye</span>
-                <h1 className="hero-title">
-                  Software Developer
-                  <br />+ Consultant
-                </h1>
+                <span className="hero-sub-title">{hero.title}</span>
+                <h1 className="hero-title">{hero.subtitles[0]}</h1>
 
                 <div className="hero-image-box d-md-none text-center">
-                  <img src="../src/assets/img/hero/Profile.png" alt="" />
+                  <img src={hero.profile.img} alt={hero.profile.alt} />
                 </div>
 
                 <p className="lead">
@@ -34,26 +35,13 @@ const Hero = () => {
                     Download CV <i className="flaticon-download"></i>
                   </a>
                   <ul className="ul-reset social-icons">
-                    <li>
-                      <a href="https://twitter.com/diallo__dev" target="_blank">
-                        <i className="fa-brands fa-x-twitter"></i>
+                    {hero.professionalDetails.map(social => (
+                      <li key={social.alt}>
+                      <a href={social.link} target="_blank">
+                        <i className={social.icon}></i>
                       </a>
                     </li>
-                    <li>
-                      <a href="https://www.instagram.com/diallo_dev/" target="_blank">
-                        <i className="fa-brands fa-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/diallodev/" target="_blank">
-                        <i className="fa-brands fa-linkedin-in"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/diallodev221" target="_blank">
-                        <i className="fa-brands fa-github"></i>
-                      </a>
-                    </li>
+                    ))}
                   </ul>
                 </div>
               </div>
