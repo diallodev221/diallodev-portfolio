@@ -4,14 +4,11 @@
   "logo": "../src/assets/img/logo/portfolio_logo.png",
   "hero": {
     "title": "Hi,👋 I'm Diallodev",
-    "subtitles": [
-      "FullStack Developer",
-      "Tech enthusiast 💻💻"
-    ],
+    "subtitles": ["FullStack Developer", "Tech enthusiast 💻💻"],
     "profile": {
       "img": "../src/assets/img/hero/Profile.png",
       "alt": "diallodev-profile"
-    } ,
+    },
     "professionalDetails": [
       {
         "alt": "diallodev-linkedin",
@@ -40,60 +37,35 @@
       }
     ]
   },
-  "skills": {
-    "Languages": [
-      "Python",
-      "JavaScript",
-      "Java",
-      "Ruby",
-      "TypeScript",
-      "Kotlin",
-      "Dart",
-      "PiFileSql"
-    ],
-    "Frontend": [
-      "React",
-      "Next.js",
-      "Redux",
-      "Netlify",
-      "Material-UI",
-      "Bootstrap"
-    ],
-    "Backend": [
-      "Node.js",
-      "Express",
-      "Spring",
-      "Rubyonrails"
-    ],
-    "Mobile": [
-      {
-        "alt": "ionic",
-        "icon": "ionic"
-      },
-      "Android",
-      "Flutter",
-      "React"
-    ],
-    "Database and Cloud": [
-      "MongoDB",
-      "MySQL",
-      "PostgreSQL",
-      "Heroku",
-      "Firebase",
-      "FaAws",
-      "Google Cloud",
-      "Azure Devops"
-    ],
-    "Devops": [
-      "Docker",
-      "Kubernetes",
-      "Jenkins",
-      "Github Actions",
-      "Gitlab",
-      "Sonarqube",
-      "Jira"
-    ]
-  },
+  "skills": [
+    { "name": "Angular", "img": "../src/assets/img/icons/angular.svg" },
+    { "name": "React", "img": "../src/assets/img/icons/react-2.svg" },
+    { "name": "Redux", "img": "../src/assets/img/icons/redux.svg" },
+    { "name": "Spring", "img": "../src/assets/img/icons/spring-3.svg" },
+    { "name": "Java", "img": "../src/assets/img/icons/java.svg" },
+    { "name": "NodeJS", "img": "../src/assets/img/icons/nodejs.svg" },
+    { "name": "Express", "img": "../src/assets/img/icons/express.svg" },
+    { "name": "NestJS", "img": "../src/assets/img/icons/nestjs.svg" },
+    { "name": "JavaScript", "img": "../src/assets/img/icons/javascript.svg" },
+    { "name": "TypeScript", "img": "../src/assets/img/icons/typescript.svg" },
+    { "name": "Tailwindcss", "img": "../src/assets/img/icons/tailwindcss.svg" },
+    { "name": "Sass", "img": "../src/assets/img/icons/sass.svg" },
+    { "name": "Material UI", "img": "../src/assets/img/icons/material-ui.svg" },
+    { "name": "Flutter", "img": "../src/assets/img/icons/flutter.svg" },
+    { "name": "Dart", "img": "../src/assets/img/icons/dart.svg" },
+    { "name": "Docker", "img": "../src/assets/img/icons/docker.svg" },
+    { "name": "Kubernetes", "img": "../src/assets/img/icons/kubernets.svg" },
+    { "name": "Jenkins", "img": "../src/assets/img/icons/jenkins.svg" },
+    { "name": "Github Actions", "img": "../src/assets/img/icons/githubactions.svg" },
+    { "name": "Gitlab", "img": "../src/assets/img/icons/gitlab.svg" },
+    { "name": "MongoDB", "img": "../src/assets/img/icons/mongodb.svg" },
+    { "name": "MySQL", "img": "../src/assets/img/icons/mysql.svg" },
+    { "name": "Redis", "img": "../src/assets/img/icons/redis.svg" },
+    { "name": "PostgreSQL", "img": "../src/assets/img/icons/postgresql.svg" },
+    { "name": "Sonarqube", "img": "../src/assets/img/icons/sonarqube.svg" },
+    { "name": "Jira", "img": "../src/assets/img/icons/jira.svg" }
+  ],
+
   "projects": {
     "baseURI": "https://api.github.com/repos/tonux/",
     "repositories": [
