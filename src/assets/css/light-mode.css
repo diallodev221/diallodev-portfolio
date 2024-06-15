@@ -178,16 +178,16 @@ body.light-mode {
 .light-mode .resume-section {
 	background: var(--tj-off-white);
 }
-.light-mode .resume-widget .resume-item {
+.light-mode .resume-widget .resume-item, .light-mode .resume-widget .edu-item {
 	background: var(--tj-white);
 }
-.light-mode .resume-widget .resume-item:hover {
+.light-mode .resume-widget .resume-item:hover, .light-mode .resume-widget .edu-item:hover {
 	color: var(--tj-white);
 }
-.light-mode .resume-widget .resume-item .resume-title {
+.light-mode .resume-widget .edu-item .edu-title {
 	color: var(--tj-theme-secondary);
 }
-.light-mode .resume-widget .resume-item:hover .resume-title {
+.light-mode .resume-widget .edu-item:hover .edu-title {
 	color: var(--tj-white);
 }
 /* END: Resume Section */

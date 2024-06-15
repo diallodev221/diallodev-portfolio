@@ -1779,10 +1779,14 @@ body.loaded {
   padding-bottom: 90px;
   background: var(--tj-black-2);
 }
-.resume-section .resume-item {
+.resume-section .resume-item , .resume-section .edu-item   {
   margin-right: 100px;
 }
+
 .resume-widget .resume-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   position: relative;
   padding: 20px 30px;
   margin-bottom: 30px;
@@ -1790,7 +1794,17 @@ body.loaded {
   background: var(--tj-theme-accent-2);
   z-index: 10;
 }
-.resume-widget .resume-item:before {
+
+.resume-widget .edu-item {
+  position: relative;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background: var(--tj-theme-accent-2);
+  z-index: 10;
+}
+
+.resume-widget .resume-item:before, .resume-widget  .edu-item:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1815,23 +1829,58 @@ body.loaded {
     var(--tj-theme-primary) 100%
   );
 }
-.resume-widget .resume-item:hover:before {
+
+.resume-widget .resume-item:hover:before, .resume-widget .edu-item:hover:before {
   opacity: 1;
 }
-.resume-widget .resume-item .time {
-  color: var(--tj-theme-primary);
-  font-size: 16px;
-  font-weight: 800;
+.resume-widget .resume-item .resume-item-right .time {
+  font-size: 14px;
+  font-weight: 500;
   margin-bottom: 8px;
 }
-.resume-widget .resume-item:hover .time {
+.resume-widget .resume-item:hover .resume-item-right > * , .resume-widget .edu-item:hover {
   color: var(--tj-white);
 }
-.resume-widget .resume-item .resume-title {
+
+.resume-widget .resume-item  .resume-item-left .resume-item-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.resume-widget .resume-item  .resume-item-right .role {
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
+
+.resume-widget .resume-item  .resume-item-right .organization  {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.resume-widget .resume-item  .resume-item-right .location {
+  font-size: 14px;
+}
+
+.resume-widget .edu-item  .time {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.resume-widget .edu-item .edu-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.resume-widget .edu-item .institute  {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
 /* END: Resume Section */
 
 /*
