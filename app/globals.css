@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 250 33% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 250 33% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 250 33% 15%;
+    --primary: 260 67% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 100% 65%;
+    --secondary-foreground: 260 67% 55%;
+    --muted: 260 20% 96%;
+    --muted-foreground: 260 10% 45%;
+    --accent: 45 100% 65%;
+    --accent-foreground: 260 67% 55%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 260 20% 92%;
+    --input: 260 20% 92%;
+    --ring: 260 67% 55%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 250 33% 10%;
+    --foreground: 0 0% 95%;
+    --card: 250 33% 15%;
+    --card-foreground: 0 0% 95%;
+    --popover: 250 33% 15%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 260 67% 65%;
+    --primary-foreground: 250 33% 15%;
+    --secondary: 45 100% 65%;
+    --secondary-foreground: 250 33% 15%;
+    --muted: 260 30% 20%;
+    --muted-foreground: 260 10% 70%;
+    --accent: 45 100% 65%;
+    --accent-foreground: 250 33% 15%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 260 30% 20%;
+    --input: 260 30% 20%;
+    --ring: 260 67% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, hsl(260, 67%, 55%) 0%, hsl(260, 67%, 35%) 100%);
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(135deg, hsl(260, 67%, 55%) 0%, hsl(270, 67%, 45%) 100%);
+}
+
+.secondary-text {
+  @apply text-secondary font-semibold;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, hsl(260, 67%, 55%) 0%, hsl(270, 50%, 25%) 100%);
+}
+
+.dot-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.container {
+  @apply px-4 mx-auto max-w-5xl;
+}
+
+.section-container {
+  @apply max-w-4xl mx-auto px-4;
+}
+
+.content-container {
+  @apply max-w-4xl mx-auto px-3;
+}
+
+/* Add these utility classes for text alignment */
+.text-justify {
+  text-align: justify;
+}
+
+.work-experience-item {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.work-experience-item:last-child {
+  border-bottom: none;
+}
+
+.work-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: hsl(var(--muted));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+}
+
+.work-details {
+  flex: 1;
+}
+
+.work-company {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.work-position {
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0.5rem;
+}
+
+.work-date {
+  color: hsl(var(--muted-foreground));
+  text-align: right;
+}
+
+/* Blog styles */
+.blog-card {
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
+  border-color: hsl(var(--primary));
+}
+
+.blog-image {
+  aspect-ratio: 16 / 9;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-content {
+  padding: 1.5rem;
+}
+
+.blog-date {
+  font-size: 0.875rem;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0.5rem;
+}
+
+.blog-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.blog-excerpt {
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Homepage blog section styles */
+.blog-section {
+  background-color: hsl(var(--background));
+}
+
+.blog-section .blog-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-section .blog-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-section .blog-excerpt {
+  flex: 1;
+}
+
+.blog-section .blog-title {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  transition: color 0.3s ease;
+}
+
+/* Preloader curtain effect */
+.curtain-reveal {
+  clip-path: inset(0 0 0 0);
+}
+
