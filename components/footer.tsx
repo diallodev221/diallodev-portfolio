@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Globe, Mail } from "lucide-react"
+import { Github, Globe, Linkedin, Mail, Twitter } from "lucide-react"
 import { useLanguage } from "@/lib/i18n/context"
 
 export default function Footer() {
@@ -12,13 +12,18 @@ export default function Footer() {
       <div className="container">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-center md:text-left">
-            <Link href="/" className="flex items-center justify-center md:justify-start">
+            <Link
+              href="/"
+              className="flex items-center justify-center md:justify-start"
+            >
               <div className="w-10 h-10 rounded-md gradient-bg flex items-center justify-center text-white font-bold text-xl">
                 D
               </div>
-              <span className="ml-2 font-semibold">diallodev.com</span>
+              <span className="ml-2 font-semibold">Diallodev</span>
             </Link>
-            <p className="mt-2 text-sm text-muted-foreground">{t("footer.tagline")}</p>
+            <p className="mt-2 text-sm text-muted-foreground">
+              {t("footer.tagline")}
+            </p>
           </div>
 
           <div className="flex gap-6">
@@ -30,13 +35,22 @@ export default function Footer() {
               <span>contact@diallodev.com</span>
             </Link>
             <Link
-              href="https://diallodev.com"
+              href="https://www.linkedin.com/in/diallodev"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
             >
-              <Globe size={16} />
-              <span>diallodev.com</span>
+              <Linkedin size={16} />
+              <span>diallodev</span>
+            </Link>
+            <Link
+              href="https://x.com/diallo__dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Twitter size={16} />
+              <span>diallodev</span>
             </Link>
             <Link
               href="https://github.com/diallodev221"
@@ -52,35 +66,61 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t">
           <div className="flex flex-wrap justify-center gap-6">
-            <Link href="/" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               Home
             </Link>
-            <Link href="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/about"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               {t("nav.about")}
             </Link>
-            <Link href="/services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/services"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               {t("nav.services")}
             </Link>
-            <Link href="/works" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/works"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               {t("nav.works")}
             </Link>
-            <Link href="/skills" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/skills"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               {t("nav.skills")}
             </Link>
-            <Link href="/blog" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/blog"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               {t("nav.blog")}
             </Link>
-            <Link href="/resume" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/resume"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               {t("nav.resume")}
             </Link>
-            <Link href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/contact"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               {t("nav.contact")}
             </Link>
           </div>
-          <p className="text-sm text-muted-foreground text-center mt-6">{t("footer.copyright")}</p>
+          <p className="text-sm text-muted-foreground text-center mt-6">
+            {t("footer.copyright")}
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 

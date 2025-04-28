@@ -6,22 +6,35 @@ export default function SkillsPage() {
   const { t } = useLanguage()
   const frontendSkills = t("skills.technical.frontend.skills", { returnObjects: true })
   const backendSkills = t("skills.technical.backend.skills", { returnObjects: true })
+  const devopsSkills = t("skills.technical.devops.skills", { returnObjects: true })
+  const databasesSkills = t("skills.technical.database.skills", {
+    returnObjects: true,
+  });
   const businessSkills = t("skills.business.skills", { returnObjects: true })
+
 
   return (
     <div className="py-12 md:py-24">
       <div className="section-container text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">{t("skills.title")}</h1>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t("skills.description")}</p>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          {t("skills.title")}
+        </h1>
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          {t("skills.description")}
+        </p>
       </div>
 
       <div className="content-container space-y-16">
         <section>
-          <h2 className="text-2xl font-bold mb-8 text-center">{t("skills.technical.title")}</h2>
+          <h2 className="text-2xl font-bold mb-8 text-center">
+            {t("skills.technical.title")}
+          </h2>
 
           <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-muted p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-6">{t("skills.technical.frontend.title")}</h3>
+              <h3 className="text-xl font-bold mb-6">
+                {t("skills.technical.frontend.title")}
+              </h3>
               <ul className="space-y-4">
                 {frontendSkills.map((skill: any, index: number) => (
                   <li key={index} className="space-y-1">
@@ -30,7 +43,10 @@ export default function SkillsPage() {
                       <span className="text-secondary">{skill.level}</span>
                     </div>
                     <div className="w-full bg-background rounded-full h-2">
-                      <div className="gradient-bg h-2 rounded-full" style={{ width: skill.level }}></div>
+                      <div
+                        className="gradient-bg h-2 rounded-full"
+                        style={{ width: skill.level }}
+                      ></div>
                     </div>
                   </li>
                 ))}
@@ -38,7 +54,9 @@ export default function SkillsPage() {
             </div>
 
             <div className="bg-muted p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-6">{t("skills.technical.backend.title")}</h3>
+              <h3 className="text-xl font-bold mb-6">
+                {t("skills.technical.backend.title")}
+              </h3>
               <ul className="space-y-4">
                 {backendSkills.map((skill: any, index: number) => (
                   <li key={index} className="space-y-1">
@@ -47,7 +65,54 @@ export default function SkillsPage() {
                       <span className="text-secondary">{skill.level}</span>
                     </div>
                     <div className="w-full bg-background rounded-full h-2">
-                      <div className="gradient-bg h-2 rounded-full" style={{ width: skill.level }}></div>
+                      <div
+                        className="gradient-bg h-2 rounded-full"
+                        style={{ width: skill.level }}
+                      ></div>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="bg-muted p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-6">
+                {t("skills.technical.devops.title")}
+              </h3>
+              <ul className="space-y-4">
+                {devopsSkills.map((skill: any, index: number) => (
+                  <li key={index} className="space-y-1">
+                    <div className="flex justify-between">
+                      <span>{skill.name}</span>
+                      <span className="text-secondary">{skill.level}</span>
+                    </div>
+                    <div className="w-full bg-background rounded-full h-2">
+                      <div
+                        className="gradient-bg h-2 rounded-full"
+                        style={{ width: skill.level }}
+                      ></div>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="bg-muted p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-6">
+                {t("skills.technical.database.title")}
+              </h3>
+              <ul className="space-y-4">
+                {databasesSkills.map((skill: any, index: number) => (
+                  <li key={index} className="space-y-1">
+                    <div className="flex justify-between">
+                      <span>{skill.name}</span>
+                      <span className="text-secondary">{skill.level}</span>
+                    </div>
+                    <div className="w-full bg-background rounded-full h-2">
+                      <div
+                        className="gradient-bg h-2 rounded-full"
+                        style={{ width: skill.level }}
+                      ></div>
                     </div>
                   </li>
                 ))}
@@ -57,7 +122,9 @@ export default function SkillsPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold mb-8 text-center">{t("skills.business.title")}</h2>
+          <h2 className="text-2xl font-bold mb-8 text-center">
+            {t("skills.business.title")}
+          </h2>
 
           <div className="grid gap-6 md:grid-cols-3">
             {businessSkills.map((skill: any, index: number) => (
@@ -81,33 +148,50 @@ export default function SkillsPage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold mb-3">{skill.title}</h3>
-                <p className="text-muted-foreground text-justify">{skill.description}</p>
+                <p className="text-muted-foreground">{skill.description}</p>
               </div>
             ))}
           </div>
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold mb-8 text-center">{t("skills.tools.title")}</h2>
+          <h2 className="text-2xl font-bold mb-8 text-center">
+            {t("skills.tools.title")}
+          </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
+              "Java",
+              "Spring Boot",
+              "Angular",
               "React",
               "Next.js",
               "TypeScript",
-              "Node.js",
-              "Express",
+              "JavaScript",
+              "NestJS",
               "MongoDB",
               "PostgreSQL",
+              "MySQL",
+              "Redis",
+              "Oracle",
+              "Kubernetes",
               "GraphQL",
+              "REST",
+              "Microservices",
               "AWS",
               "Docker",
               "Git",
               "CI/CD",
-              "Figma",
               "Tailwind CSS",
               "Redux",
               "Jest",
+              "Figma",
+              "Jira",
+              "Slack",
+              "Notion",
+              "Trello",
+              "VS Code",
+              "IntelliJ IDEA",
             ].map((tool, index) => (
               <div key={index} className="bg-muted p-4 rounded-lg text-center">
                 <span className="font-medium">{tool}</span>
@@ -117,6 +201,6 @@ export default function SkillsPage() {
         </section>
       </div>
     </div>
-  )
+  );
 }
 

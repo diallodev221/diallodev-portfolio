@@ -30,15 +30,18 @@ export const translations = {
           "I bridge the gap between technology and business needs, creating scalable, user-centric solutions that drive growth and improve efficiency for organizations of all sizes.",
         card1: {
           title: "Strategic Solutions",
-          description: "Developing technology solutions aligned with your business goals and objectives.",
+          description:
+            "Developing technology solutions aligned with your business goals and objectives.",
         },
         card2: {
           title: "User-Centric Design",
-          description: "Creating intuitive interfaces that enhance user experience and drive engagement.",
+          description:
+            "Creating intuitive interfaces that enhance user experience and drive engagement.",
         },
         card3: {
           title: "Scalable Architecture",
-          description: "Building robust systems that grow with your business and adapt to changing needs.",
+          description:
+            "Building robust systems that grow with your business and adapt to changing needs.",
         },
       },
       projects: {
@@ -56,7 +59,8 @@ export const translations = {
       },
       blog: {
         title: "Latest Insights",
-        description: "Thoughts and strategies on technology, business integration, and digital transformation",
+        description:
+          "Thoughts and strategies on technology, business integration, and digital transformation",
         viewAll: "View All Articles",
       },
       cta: {
@@ -77,24 +81,61 @@ export const translations = {
       },
       experience: {
         title: "Work Experience",
+        topExps: [
+          {
+            title: "Prestataire Software Engineer",
+            company: "BOA Group",
+            period: "Jan 2025 - Present",
+            description:
+              "Leading development of cloud-based SaaS applications using React, Node.js, and AWS. Implemented CI/CD pipelines and mentored junior developers.",
+          },
+          {
+            title: "Consultant IT",
+            company: "Eng Technologie groupe",
+            period: "2017 - 2020",
+            description:
+              "Developed and maintained multiple client projects using JavaScript frameworks. Collaborated with design and product teams to deliver high-quality web applications.",
+          },
+          {
+            title: "Software Engineer",
+            company: "Mafalia",
+            period: "Nov 2023 - Nov 2024",
+            description:
+              "Built responsive websites and interactive UIs for various clients. Focused on performance optimization and cross-browser compatibility.",
+          },
+          {
+            title: "Full-Stack Developer",
+            company: "SarayaTech Senegal",
+            period: "Dec 2022 - Mars 2022",
+            description:
+              "Built responsive websites and interactive UIs for various clients. Focused on performance optimization and cross-browser compatibility.",
+          },
+        ],
         job1: {
-          title: "Senior Full Stack Developer",
-          company: "TechCorp Inc.",
-          period: "2020 - Present",
+          title: "Prestataire Software Engineer",
+          company: "BOA Group",
+          period: "Jan 2025 - Present",
           description:
             "Leading development of cloud-based SaaS applications using React, Node.js, and AWS. Implemented CI/CD pipelines and mentored junior developers.",
         },
         job2: {
-          title: "Full Stack Developer",
-          company: "WebSolutions",
+          title: "Consultant IT",
+          company: "Eng Technologie groupe",
           period: "2017 - 2020",
           description:
             "Developed and maintained multiple client projects using JavaScript frameworks. Collaborated with design and product teams to deliver high-quality web applications.",
         },
         job3: {
-          title: "Frontend Developer",
-          company: "CreativeAgency",
-          period: "2015 - 2017",
+          title: "Software Engineer",
+          company: "Mafalia",
+          period: "Nov 2023 - Nov 2024",
+          description:
+            "Built responsive websites and interactive UIs for various clients. Focused on performance optimization and cross-browser compatibility.",
+        },
+        job4: {
+          title: "Full-Stack Developer",
+          company: "SarayaTech Senegal",
+          period: "Dec 2022 - Mars 2022",
           description:
             "Built responsive websites and interactive UIs for various clients. Focused on performance optimization and cross-browser compatibility.",
         },
@@ -103,15 +144,58 @@ export const translations = {
         title: "Skills & Technologies",
         frontend: {
           title: "Frontend",
-          items: ["React / Next.js", "TypeScript", "Tailwind CSS", "Redux / Zustand", "HTML5 / CSS3"],
+          items: [
+            "React / Next.js / Angular",
+            "JavaScript / TypeScript",
+            "Tailwind CSS / Material UI",
+            "Redux / Zustand",
+            "HTML5 / CSS3",
+          ],
         },
         backend: {
           title: "Backend",
-          items: ["Node.js / Express", "REST APIs", "GraphQL", "MongoDB", "PostgreSQL"],
+          items: [
+            "Java / J2EE / Spring Boot / Spring Cloud / Spring Batch / Spring MVC / Spring Integration",
+            "NestJS / Node.js / Express",
+            "REST APIs / GraphQL",
+            "Oracle / PostgreSQL / MySQL / Redis / MongoDB",
+            "Authentication / Security",
+            "Microservices / Event-Driven Architecture",
+            "Kafka / RabbitMQ / ActiveMQ",
+            "Mockito / JUnit5",
+            "Swagger / OpenAPI",
+          ],
         },
         devops: {
           title: "DevOps",
-          items: ["AWS / Vercel", "Docker", "CI/CD", "Git / GitHub", "Testing (Jest, Cypress)"],
+          items: [
+            "AWS / Azure / GCP / Vercel / Netlify",
+            "Kubernetes / Docker",
+            "Git / GitHub / GitLab",
+            "CI/CD (Jenkins / GitHub Actions)",
+            "Monitoring (Prometheus / Grafana)",
+            "Agile / Scrum / Kanban",
+            "Project Management (JIRA / Trello)",
+            "Testing (JUnit / Mockito / Cypress)",
+            "Testing (Jest / Cypress / Selenium)",
+          ],
+        },
+        tools: {
+          title: "Tools & Technologies",
+          items: [
+            "Visual Studio Code / IntelliJ IDEA / Eclipse",
+            "Postman / Insomnia",
+            "Figma",
+            "Slack / Microsoft Teams",
+            "Notion / Confluence",
+            "Trello / JIRA",
+            "Docker Desktop / Docker Compose",
+            "Splunk / Graylog",
+            "Sentry / New Relic",
+            "JMeter / Gatling / Locust",
+            "SonarQube / ESLint / PMD",
+            "Build Automation (Maven / Gradle / NPM / YARN / PNPM)",
+          ],
         },
       },
     },
@@ -136,7 +220,8 @@ export const translations = {
         },
         {
           title: "Web Application Development",
-          description: "Building scalable, user-friendly web applications that drive business growth and efficiency.",
+          description:
+            "Building scalable, user-friendly web applications that drive business growth and efficiency.",
           features: [
             "Custom web applications",
             "E-commerce platforms",
@@ -159,7 +244,8 @@ export const translations = {
         },
         {
           title: "UI/UX Design",
-          description: "Designing intuitive user interfaces that enhance user experience and drive engagement.",
+          description:
+            "Designing intuitive user interfaces that enhance user experience and drive engagement.",
           features: [
             "User research",
             "Wireframing & prototyping",
@@ -182,7 +268,8 @@ export const translations = {
         },
         {
           title: "Digital Transformation",
-          description: "Helping businesses leverage technology to transform operations and create new opportunities.",
+          description:
+            "Helping businesses leverage technology to transform operations and create new opportunities.",
           features: [
             "Process automation",
             "Legacy system modernization",
@@ -198,6 +285,23 @@ export const translations = {
       title: "My Projects",
       description:
         "A showcase of business solutions that deliver measurable results and drive growth by connecting technology with business needs.",
+      backToAllProjects: "Back to all projects",
+      overview: "Overview",
+      challenge: "Challenge",
+      solution: "Solution",
+      results: "Results",
+      keyIssues: "Key Issues",
+      keyFeatures: "Key Features",
+      technologies: "Technologies",
+      projectLinks: "Project Links",
+      interestedInSimilarProject: "Interested in a similar project?",
+      interestedInSimilarProjectDescription:
+        "Let's discuss how I can help you achieve your business goals with a custom solution tailored to your specific needs.",
+      contactMe: "Contact Me",
+      similarProjects: "Similar Projects",
+      client: "Client",
+      duration: "Duration",
+      completed: "Completed",
     },
     // Skills page
     skills: {
@@ -209,21 +313,57 @@ export const translations = {
         frontend: {
           title: "Frontend Development",
           skills: [
-            { name: "React & Next.js", level: "95%" },
-            { name: "TypeScript", level: "90%" },
+            { name: "React & Next.js & Angular", level: "95%" },
+            { name: "JavaScript/TypeScript", level: "90%" },
             { name: "HTML/CSS/Tailwind", level: "95%" },
-            { name: "Redux & Context API", level: "85%" },
+            { name: "Redux & Context API & Zustand", level: "85%" },
             { name: "Responsive Design", level: "90%" },
+            { name: "Progressive Web Apps", level: "85%" },
+            { name: "Web Accessibility (WCAG)", level: "80%" },
+            { name: "Figma", level: "85%" },
+            { name: "Web Performance Optimization", level: "90%" },
           ],
         },
         backend: {
           title: "Backend Development",
           skills: [
-            { name: "Node.js & Express", level: "90%" },
-            { name: "RESTful APIs", level: "95%" },
-            { name: "GraphQL", level: "85%" },
-            { name: "MongoDB & PostgreSQL", level: "90%" },
-            { name: "Authentication & Security", level: "85%" },
+            { name: "Java - J2EE - Spring Boot - Spring Cloud", level: "90%" },
+            { name: "NestJS - Node.js & Express", level: "90%" },
+            { name: "RESTful APIs / GraphQL", level: "95%" },
+            { name: "Microservices - Event-Driven Architecture", level: "90%" },
+            { name: "RabbitMQ - Kafka - ActiveMQ", level: "85%" },
+            { name: "Testing (JUnit - Mockito)", level: "90%" },
+            { name: "Swagger - OpenAPI", level: "90%" },
+            { name: "MySQL - Redis - Oracle - PostgreSQL", level: "90%" },
+            { name: "Authentication - Security", level: "85%" },
+          ],
+        },
+        devops: {
+          title: "DevOps",
+          skills: [
+            { name: "AWS - GCP - Vercel - Netlify", level: "90%" },
+            { name: "Kubernetes - Docker ", level: "85%" },
+            {
+              name: "CI/CD (Jenkins & GitHub Actions & Travis CI)",
+              level: "90%",
+            },
+            { name: "Monitoring (Prometheus & Grafana)", level: "85%" },
+            { name: "Agile - Scrum - Kanban", level: "90%" },
+          ],
+        },
+        database: {
+          title: "Database Management",
+          skills: [
+            {
+              name: "Oracle - PostgreSQL - MySQL - Redis - MongoDB",
+              level: "90%",
+            },
+            { name: "Database Design", level: "85%" },
+            { name: "Data Modeling", level: "85%" },
+            { name: "Stored Procedures", level: "80%" },
+            { name: "Database Optimization", level: "85%" },
+            { name: "Data Migration", level: "80%" },
+            { name: "ETL Processes", level: "80%" },
           ],
         },
       },
@@ -232,15 +372,18 @@ export const translations = {
         skills: [
           {
             title: "Problem Solving",
-            description: "Identifying business challenges and developing effective technical solutions.",
+            description:
+              "Identifying business challenges and developing effective technical solutions.",
           },
           {
             title: "Strategic Planning",
-            description: "Developing technology roadmaps aligned with business objectives and growth targets.",
+            description:
+              "Developing technology roadmaps aligned with business objectives and growth targets.",
           },
           {
             title: "Client Communication",
-            description: "Translating technical concepts into business language that stakeholders understand.",
+            description:
+              "Translating technical concepts into business language that stakeholders understand.",
           },
         ],
       },
@@ -251,12 +394,14 @@ export const translations = {
     // Blog page
     blog: {
       title: "Blog",
-      description: "Insights on technology, business integration, and digital transformation strategies",
+      description:
+        "Insights on technology, business integration, and digital transformation strategies",
       featured: "Featured",
       readArticle: "Read Article",
       categories: "Categories",
       subscribe: "Subscribe",
-      subscribeText: "Get the latest articles and insights delivered to your inbox.",
+      subscribeText:
+        "Get the latest articles and insights delivered to your inbox.",
       yourEmail: "Your email address",
       subscribeButton: "Subscribe",
       loadMore: "Load More Articles",
@@ -280,7 +425,8 @@ export const translations = {
         },
         {
           title: "Industry News",
-          description: "Updates on the latest frameworks, libraries, and tools in the web development ecosystem.",
+          description:
+            "Updates on the latest frameworks, libraries, and tools in the web development ecosystem.",
         },
         {
           title: "Career Advice",
@@ -371,10 +517,26 @@ export const translations = {
       certifications: {
         title: "Certifications",
         items: [
-          { name: "AWS Certified Solutions Architect", issuer: "Amazon Web Services", year: "2020" },
-          { name: "Certified Scrum Master", issuer: "Scrum Alliance", year: "2019" },
-          { name: "Professional Project Manager (PMP)", issuer: "Project Management Institute", year: "2018" },
-          { name: "Microsoft Certified: Azure Solutions Architect", issuer: "Microsoft", year: "2021" },
+          {
+            name: "AWS Certified Solutions Architect",
+            issuer: "Amazon Web Services",
+            year: "2020",
+          },
+          {
+            name: "Certified Scrum Master",
+            issuer: "Scrum Alliance",
+            year: "2019",
+          },
+          {
+            name: "Professional Project Manager (PMP)",
+            issuer: "Project Management Institute",
+            year: "2018",
+          },
+          {
+            name: "Microsoft Certified: Azure Solutions Architect",
+            issuer: "Microsoft",
+            year: "2021",
+          },
         ],
       },
       languages: {
@@ -420,7 +582,7 @@ export const translations = {
     // Footer
     footer: {
       tagline: "Bridging Technology & Business",
-      copyright: "© 2025 Diallo. All rights reserved.",
+      copyright: "© 2025 Diallodev. All rights reserved.",
     },
     // Language
     language: {
@@ -457,12 +619,13 @@ export const translations = {
         cta2: "Voir les Projets",
       },
       valueProposition: {
-        title: "Comment J'Aide les Entreprises",
+        title: "Comment J'aide les Entreprises",
         description:
           "Je comble le fossé entre la technologie et les besoins des entreprises, en créant des solutions évolutives centrées sur l'utilisateur qui stimulent la croissance et améliorent l'efficacité pour les organisations de toutes tailles.",
         card1: {
           title: "Solutions Stratégiques",
-          description: "Développer des solutions technologiques alignées sur vos objectifs d'affaires.",
+          description:
+            "Développer des solutions technologiques alignées sur vos objectifs d'affaires.",
         },
         card2: {
           title: "Design Centré Utilisateur",
@@ -538,15 +701,33 @@ export const translations = {
         title: "Compétences & Technologies",
         frontend: {
           title: "Frontend",
-          items: ["React / Next.js", "TypeScript", "Tailwind CSS", "Redux / Zustand", "HTML5 / CSS3"],
+          items: [
+            "React / Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Redux / Zustand",
+            "HTML5 / CSS3",
+          ],
         },
         backend: {
           title: "Backend",
-          items: ["Node.js / Express", "REST APIs", "GraphQL", "MongoDB", "PostgreSQL"],
+          items: [
+            "Node.js / Express",
+            "REST APIs",
+            "GraphQL",
+            "MongoDB",
+            "PostgreSQL",
+          ],
         },
         devops: {
           title: "DevOps",
-          items: ["AWS / Vercel", "Docker", "CI/CD", "Git / GitHub", "Testing (Jest, Cypress)"],
+          items: [
+            "AWS / Vercel",
+            "Docker",
+            "CI/CD",
+            "Git / GitHub",
+            "Testing (Jest, Cypress)",
+          ],
         },
       },
     },
@@ -664,13 +845,24 @@ export const translations = {
             { name: "Authentification & Sécurité", level: "85%" },
           ],
         },
+        devops: {
+          title: "DevOps",
+          skills: [
+            { name: "AWS & Vercel", level: "90%" },
+            { name: "Docker", level: "85%" },
+            { name: "CI/CD", level: "90%" },
+            { name: "Git & GitHub", level: "95%" },
+            { name: "Tests (Jest, Cypress)", level: "85%" },
+          ],
+        },
       },
       business: {
         title: "Compétences en Affaires",
         skills: [
           {
             title: "Résolution de Problèmes",
-            description: "Identifier les défis commerciaux et développer des solutions techniques efficaces.",
+            description:
+              "Identifier les défis commerciaux et développer des solutions techniques efficaces.",
           },
           {
             title: "Planification Stratégique",
@@ -697,7 +889,8 @@ export const translations = {
       readArticle: "Lire l'article",
       categories: "Catégories",
       subscribe: "S'abonner",
-      subscribeText: "Recevez les derniers articles et insights directement dans votre boîte de réception.",
+      subscribeText:
+        "Recevez les derniers articles et insights directement dans votre boîte de réception.",
       yourEmail: "Votre adresse email",
       subscribeButton: "S'abonner",
       loadMore: "Charger plus d'articles",
@@ -813,10 +1006,26 @@ export const translations = {
       certifications: {
         title: "Certifications",
         items: [
-          { name: "AWS Certified Solutions Architect", issuer: "Amazon Web Services", year: "2020" },
-          { name: "Certified Scrum Master", issuer: "Scrum Alliance", year: "2019" },
-          { name: "Professional Project Manager (PMP)", issuer: "Project Management Institute", year: "2018" },
-          { name: "Microsoft Certified: Azure Solutions Architect", issuer: "Microsoft", year: "2021" },
+          {
+            name: "AWS Certified Solutions Architect",
+            issuer: "Amazon Web Services",
+            year: "2020",
+          },
+          {
+            name: "Certified Scrum Master",
+            issuer: "Scrum Alliance",
+            year: "2019",
+          },
+          {
+            name: "Professional Project Manager (PMP)",
+            issuer: "Project Management Institute",
+            year: "2018",
+          },
+          {
+            name: "Microsoft Certified: Azure Solutions Architect",
+            issuer: "Microsoft",
+            year: "2021",
+          },
         ],
       },
       languages: {
@@ -862,7 +1071,7 @@ export const translations = {
     // Footer
     footer: {
       tagline: "Relier Technologie & Business",
-      copyright: "© 2025 Diallo. Tous droits réservés.",
+      copyright: "© 2025 Diallodev. Tous droits réservés.",
     },
     // Language
     language: {
@@ -875,5 +1084,5 @@ export const translations = {
       subtitle: "Créer des solutions évolutives centrées sur l'utilisateur",
     },
   },
-}
+};
 

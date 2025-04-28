@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { Github, Globe, Mail, ArrowRight } from "lucide-react"
+import { Github, Globe, Mail, ArrowRight, Twitter, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ProjectCard from "@/components/project-card"
 import { useLanguage } from "@/lib/i18n/context"
@@ -20,23 +20,34 @@ export default function Home() {
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
                 {t("home.hero.title")} <br />
-                <span className="text-secondary">{t("home.hero.titleHighlight1")}</span> <br />
-                <span className="text-secondary">{t("home.hero.titleHighlight2")}</span>
+                <span className="text-secondary">
+                  {t("home.hero.titleHighlight1")}
+                </span>{" "}
+                <br />
+                <span className="text-secondary">
+                  {t("home.hero.titleHighlight2")}
+                </span>
               </h1>
               <div className="space-y-2">
                 <p className="text-lg md:text-xl">{t("home.hero.subtitle1")}</p>
-                <p className="text-lg md:text-xl text-secondary">{t("home.hero.subtitle2")}</p>
+                <p className="text-lg md:text-xl text-secondary">
+                  {t("home.hero.subtitle2")}
+                </p>
               </div>
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                <Button asChild size="lg" className="rounded-md bg-secondary text-primary-foreground">
+                <Button
+                  asChild
+                  size="lg"
+                  className="rounded-md bg-secondary text-primary-foreground"
+                >
                   <Link href="/contact">{t("home.hero.cta1")}</Link>
                 </Button>
                 <Button
                   asChild
                   size="lg"
                   variant="outline"
-                  className="rounded-md border-white text-white hover:bg-white/10"
+                  className="rounded-md border-white text-black hover:bg-white/10 hover:text-white"
                 >
                   <Link href="/works">{t("home.hero.cta2")}</Link>
                 </Button>
@@ -51,13 +62,22 @@ export default function Home() {
                   <span>contact@diallodev.com</span>
                 </Link>
                 <Link
-                  href="https://diallodev.com"
+                  href="https://www.linkedin.com/in/diallodev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm hover:text-secondary transition-colors"
                 >
-                  <Globe size={16} />
-                  <span>diallodev.com</span>
+                  <Linkedin size={16} />
+                  <span>diallodev</span>
+                </Link>
+                <Link
+                  href="https://x.com/diallo__dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm hover:text-secondary transition-colors"
+                >
+                  <Twitter size={16} />
+                  <span>diallodev</span>
                 </Link>
                 <Link
                   href="https://github.com/diallodev221"
@@ -74,15 +94,15 @@ export default function Home() {
             <div className="lg:col-span-5 relative">
               <div className="relative z-10">
                 <Image
-                  src="/placeholder.svg?height=600&width=500"
+                  src="/profile.png"
                   alt="Diallo"
                   width={500}
                   height={600}
-                  className="object-cover mx-auto"
+                  className="object-cover mx-auto rounded-md rotate-3 hover:rotate-0 transition-transform duration-500"
                   priority
                 />
               </div>
-              <div className="absolute top-0 right-0 w-3/4 h-full rounded-full bg-secondary/30 -z-0"></div>
+              {/* <div className="absolute top-0 right-0 w-3/4 h-full rounded-full bg-secondary/30 -z-0"></div> */}
             </div>
           </div>
         </div>
@@ -91,7 +111,9 @@ export default function Home() {
       {/* Value Proposition Section */}
       <section className="py-16 md:py-24">
         <div className="section-container text-center">
-          <h2 className="text-3xl font-bold mb-6">{t("home.valueProposition.title")}</h2>
+          <h2 className="text-3xl font-bold mb-6">
+            {t("home.valueProposition.title")}
+          </h2>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto text-justify">
             {t("home.valueProposition.description")}
           </p>
@@ -116,8 +138,12 @@ export default function Home() {
                   <path d="M10 22h4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">{t("home.valueProposition.card1.title")}</h3>
-              <p className="text-muted-foreground">{t("home.valueProposition.card1.description")}</p>
+              <h3 className="text-xl font-bold mb-3">
+                {t("home.valueProposition.card1.title")}
+              </h3>
+              <p className="text-muted-foreground">
+                {t("home.valueProposition.card1.description")}
+              </p>
             </div>
 
             <div className="bg-muted p-8 rounded-lg text-center">
@@ -140,8 +166,12 @@ export default function Home() {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">{t("home.valueProposition.card2.title")}</h3>
-              <p className="text-muted-foreground">{t("home.valueProposition.card2.description")}</p>
+              <h3 className="text-xl font-bold mb-3">
+                {t("home.valueProposition.card2.title")}
+              </h3>
+              <p className="text-muted-foreground">
+                {t("home.valueProposition.card2.description")}
+              </p>
             </div>
 
             <div className="bg-muted p-8 rounded-lg text-center">
@@ -164,8 +194,12 @@ export default function Home() {
                   <path d="M8 17v-3" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">{t("home.valueProposition.card3.title")}</h3>
-              <p className="text-muted-foreground">{t("home.valueProposition.card3.description")}</p>
+              <h3 className="text-xl font-bold mb-3">
+                {t("home.valueProposition.card3.title")}
+              </h3>
+              <p className="text-muted-foreground">
+                {t("home.valueProposition.card3.description")}
+              </p>
             </div>
           </div>
         </div>
@@ -176,12 +210,17 @@ export default function Home() {
         <div className="section-container">
           <div className="flex flex-col md:flex-row justify-between items-center mb-12">
             <div className="text-center md:text-left mb-6 md:mb-0">
-              <h2 className="text-3xl font-bold mb-2">{t("home.projects.title")}</h2>
-              <p className="text-muted-foreground">{t("home.projects.subtitle")}</p>
+              <h2 className="text-3xl font-bold mb-2">
+                {t("home.projects.title")}
+              </h2>
+              <p className="text-muted-foreground">
+                {t("home.projects.subtitle")}
+              </p>
             </div>
             <Button asChild variant="ghost" className="flex items-center">
               <Link href="/works">
-                {t("home.projects.viewAll")} <ArrowRight className="ml-2 h-4 w-4" />
+                {t("home.projects.viewAll")}{" "}
+                <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
           </div>
@@ -216,28 +255,38 @@ export default function Home() {
       <section className="py-16 md:py-24">
         <div className="section-container text-center">
           <h2 className="text-3xl font-bold mb-6">{t("home.skills.title")}</h2>
-          <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">{t("home.skills.description")}</p>
+          <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
+            {t("home.skills.description")}
+          </p>
 
           <div className="grid gap-6 md:grid-cols-2">
             <div className="bg-muted p-8 rounded-lg text-left">
-              <h3 className="text-xl font-bold mb-4">{t("home.skills.frontend")}</h3>
+              <h3 className="text-xl font-bold mb-4">
+                {t("home.skills.frontend")}
+              </h3>
               <ul className="space-y-4">
                 <li className="space-y-1">
                   <div className="flex justify-between">
-                    <span>React & Next.js</span>
+                    <span>React & Next.js & Angular</span>
                     <span className="text-secondary">95%</span>
                   </div>
                   <div className="w-full bg-background rounded-full h-2">
-                    <div className="gradient-bg h-2 rounded-full" style={{ width: "95%" }}></div>
+                    <div
+                      className="gradient-bg h-2 rounded-full"
+                      style={{ width: "95%" }}
+                    ></div>
                   </div>
                 </li>
                 <li className="space-y-1">
                   <div className="flex justify-between">
-                    <span>TypeScript</span>
+                    <span>JavaScript & TypeScript</span>
                     <span className="text-secondary">90%</span>
                   </div>
                   <div className="w-full bg-background rounded-full h-2">
-                    <div className="gradient-bg h-2 rounded-full" style={{ width: "90%" }}></div>
+                    <div
+                      className="gradient-bg h-2 rounded-full"
+                      style={{ width: "90%" }}
+                    ></div>
                   </div>
                 </li>
                 <li className="space-y-1">
@@ -246,22 +295,30 @@ export default function Home() {
                     <span className="text-secondary">85%</span>
                   </div>
                   <div className="w-full bg-background rounded-full h-2">
-                    <div className="gradient-bg h-2 rounded-full" style={{ width: "85%" }}></div>
+                    <div
+                      className="gradient-bg h-2 rounded-full"
+                      style={{ width: "85%" }}
+                    ></div>
                   </div>
                 </li>
               </ul>
             </div>
 
             <div className="bg-muted p-8 rounded-lg text-left">
-              <h3 className="text-xl font-bold mb-4">{t("home.skills.backend")}</h3>
+              <h3 className="text-xl font-bold mb-4">
+                {t("home.skills.backend")}
+              </h3>
               <ul className="space-y-4">
                 <li className="space-y-1">
                   <div className="flex justify-between">
-                    <span>Node.js & Express</span>
+                    <span>Node.js & Express / Java & Spring Boot</span>
                     <span className="text-secondary">90%</span>
                   </div>
                   <div className="w-full bg-background rounded-full h-2">
-                    <div className="gradient-bg h-2 rounded-full" style={{ width: "90%" }}></div>
+                    <div
+                      className="gradient-bg h-2 rounded-full"
+                      style={{ width: "90%" }}
+                    ></div>
                   </div>
                 </li>
                 <li className="space-y-1">
@@ -270,7 +327,10 @@ export default function Home() {
                     <span className="text-secondary">85%</span>
                   </div>
                   <div className="w-full bg-background rounded-full h-2">
-                    <div className="gradient-bg h-2 rounded-full" style={{ width: "85%" }}></div>
+                    <div
+                      className="gradient-bg h-2 rounded-full"
+                      style={{ width: "85%" }}
+                    ></div>
                   </div>
                 </li>
                 <li className="space-y-1">
@@ -279,7 +339,10 @@ export default function Home() {
                     <span className="text-secondary">95%</span>
                   </div>
                   <div className="w-full bg-background rounded-full h-2">
-                    <div className="gradient-bg h-2 rounded-full" style={{ width: "95%" }}></div>
+                    <div
+                      className="gradient-bg h-2 rounded-full"
+                      style={{ width: "95%" }}
+                    ></div>
                   </div>
                 </li>
               </ul>
@@ -297,7 +360,9 @@ export default function Home() {
         <div className="section-container">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">{t("home.blog.title")}</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t("home.blog.description")}</p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              {t("home.blog.description")}
+            </p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-3">
@@ -327,7 +392,11 @@ export default function Home() {
                 slug: "data-integration-strategies",
               },
             ].map((post, index) => (
-              <Link key={index} href={`/blog/${post.slug}`} className="blog-card group">
+              <Link
+                key={index}
+                href={`/blog/${post.slug}`}
+                className="blog-card group"
+              >
                 <div className="blog-image">
                   <Image
                     src={post.image || "/placeholder.svg"}
@@ -338,7 +407,9 @@ export default function Home() {
                 </div>
                 <div className="blog-content">
                   <div className="blog-date">{post.date}</div>
-                  <h3 className="blog-title group-hover:text-primary transition-colors">{post.title}</h3>
+                  <h3 className="blog-title group-hover:text-primary transition-colors">
+                    {post.title}
+                  </h3>
                   <p className="blog-excerpt text-justify">{post.excerpt}</p>
                 </div>
               </Link>
@@ -359,14 +430,22 @@ export default function Home() {
       <section className="py-16 md:py-24 hero-gradient text-white relative">
         <div className="absolute inset-0 dot-pattern"></div>
         <div className="content-container text-center relative">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">{t("home.cta.title")}</h2>
-          <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto text-justify">{t("home.cta.description")}</p>
-          <Button asChild size="lg" className="rounded-md bg-secondary text-primary-foreground">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            {t("home.cta.title")}
+          </h2>
+          <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto text-justify">
+            {t("home.cta.description")}
+          </p>
+          <Button
+            asChild
+            size="lg"
+            className="rounded-md bg-secondary text-primary-foreground"
+          >
             <Link href="/contact">{t("home.cta.button")}</Link>
           </Button>
         </div>
       </section>
     </div>
-  )
+  );
 }
 

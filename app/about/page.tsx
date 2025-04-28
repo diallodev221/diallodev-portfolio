@@ -6,6 +6,8 @@ import { useLanguage } from "@/lib/i18n/context"
 export default function AboutPage() {
   const { t } = useLanguage()
 
+  const topExperiences = {}
+
   return (
     <div className="container max-w-4xl py-12">
       <h1 className="text-3xl font-bold mb-6">{t("about.title")}</h1>
@@ -13,7 +15,7 @@ export default function AboutPage() {
       <div className="flex flex-col md:flex-row gap-8 mb-12">
         <div className="md:w-1/3">
           <Image
-            src="/placeholder.svg?height=300&width=300"
+            src="/profile.png"
             alt="Alex Morgan"
             width={300}
             height={300}
