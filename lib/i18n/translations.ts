@@ -1,4 +1,4 @@
-export type Language = "en" | "fr"
+export type Language = "en" | "fr";
 
 export const translations = {
   en: {
@@ -74,10 +74,10 @@ export const translations = {
     about: {
       title: "About Me",
       intro: {
-        p1: "Hello! I'm Alex Morgan, a Full Stack Developer with over 8 years of experience building web applications. I specialize in JavaScript/TypeScript, React, Node.js, and modern web technologies.",
-        p2: "My journey in software development began when I was in college, where I built small websites for local businesses. Since then, I've worked with startups and large enterprises to create scalable, user-friendly applications.",
-        p3: "When I'm not coding, I enjoy writing technical articles, contributing to open source projects, and mentoring aspiring developers. I believe in continuous learning and sharing knowledge with the community.",
-        p4: "This website serves as my digital garden where I document my learning journey and share insights about web development, software architecture, and best practices.",
+        p1: "👋 Hello! I'm Saïfoulaye Diallo, a Full Stack Developer with over 5 years of experience building uilding modern and scalable web applications. I specialize in Java, Spring Boot, Angular, and React, and I’m passionate about creating clean, maintainable, and efficient solutions that make a real impact.",
+        p2: "💡 My journey in software development began when I was in college, where I built small websites for local businesses. Since then, I've worked with startups and large enterprises to create scalable, user-friendly applications.",
+        p3: "🧠 When I'm not coding, I enjoy writing technical articles, contributing to open source projects, and mentoring aspiring developers. I believe in continuous learning and sharing knowledge with the community.",
+        p4: "🌱 This website serves as my digital garden where I document my learning journey and share insights about web development, software architecture, and best practices.",
       },
       experience: {
         title: "Work Experience",
@@ -226,32 +226,20 @@ export const translations = {
             "Custom web applications",
             "E-commerce platforms",
             "Business dashboards",
-            "Content management systems",
-            "Progressive Web Apps",
+            "Client portals & internal dashboards",
+            "Progressive Web Apps  (PWAs)",
           ],
         },
         {
-          title: "API Development",
+          title: "API & Backend Development",
           description:
             "Creating robust APIs that connect systems and enable seamless data flow across your organization.",
           features: [
-            "RESTful API design",
+            "RESTful and GraphQL API design",
             "GraphQL implementation",
-            "API documentation",
-            "Integration services",
-            "Microservices architecture",
-          ],
-        },
-        {
-          title: "UI/UX Design",
-          description:
-            "Designing intuitive user interfaces that enhance user experience and drive engagement.",
-          features: [
-            "User research",
-            "Wireframing & prototyping",
-            "Responsive design",
-            "Usability testing",
-            "Design systems",
+            "API documentation (Swagger/OpenAPI)",
+            "Secure API implementation (OAuth2, JWT)",
+            "Microservices architecture using Spring Boot",
           ],
         },
         {
@@ -273,9 +261,17 @@ export const translations = {
           features: [
             "Process automation",
             "Legacy system modernization",
-            "Cloud migration",
-            "Data strategy",
             "Digital workflow optimization",
+          ],
+        },
+        {
+          title: "Mentoring & Technical Coaching",
+          description:
+            "Help your tech team grow with personalized coaching and knowledge sharing tailored to real-world scenarios.",
+          features: [
+            "Mentoring junior developers",
+            "Code review sessions",
+            "Training on Java, Spring Boot, React, Git, Docker, etc.",
           ],
         },
       ],
@@ -544,7 +540,6 @@ export const translations = {
         items: [
           { name: "English", level: "100%", proficiency: "Native" },
           { name: "French", level: "85%", proficiency: "Professional" },
-          { name: "Spanish", level: "70%", proficiency: "Intermediate" },
         ],
       },
     },
@@ -668,33 +663,33 @@ export const translations = {
     about: {
       title: "À Propos de Moi",
       intro: {
-        p1: "Bonjour! Je suis Alex Morgan, un Développeur Full Stack avec plus de 8 ans d'expérience dans la création d'applications web. Je me spécialise en JavaScript/TypeScript, React, Node.js et les technologies web modernes.",
-        p2: "Mon parcours dans le développement logiciel a commencé lorsque j'étais à l'université, où j'ai créé de petits sites web pour des entreprises locales. Depuis, j'ai travaillé avec des startups et de grandes entreprises pour créer des applications évolutives et conviviales.",
-        p3: "Quand je ne code pas, j'aime écrire des articles techniques, contribuer à des projets open source et encadrer des développeurs en herbe. Je crois en l'apprentissage continu et au partage des connaissances avec la communauté.",
-        p4: "Ce site web sert de jardin numérique où je documente mon parcours d'apprentissage et partage des idées sur le développement web, l'architecture logicielle et les meilleures pratiques.",
+        p1: "👋 Bonjour! Je suis Saïfoulaye Diallo, un Développeur Full Stack avec plus de 5 ans d'expérience dans la création d’applications web modernes et évolutives. Spécialisé en Java, Spring Boot, Angular et React, je suis passionné par le développement de solutions propres, maintenables et performantes qui ont un véritable impact.",
+        p2: "💡 Mon parcours dans le développement logiciel a commencé lorsque j'étais à l'université, où j'ai créé de petits sites web pour des entreprises locales. Depuis, j'ai travaillé avec des startups et de grandes entreprises pour créer des applications évolutives et conviviales.",
+        p3: "🧠 Je crois profondément en l’apprentissage continu, l’architecture propre et le partage de connaissances. Quand je ne code pas, j'aime écrire des articles techniques, encadrer des développeurs en herbe. Je crois en l'apprentissage continu et au partage des connaissances avec la communauté.",
+        p4: "🌱 Ce site est mon jardin numérique un espace où je documente mon parcours, partage des réflexions sur le développement logiciel, l’architecture, les bonnes pratiques, et évolue aux côtés de la communauté tech.",
       },
       experience: {
         title: "Expérience Professionnelle",
         job1: {
-          title: "Développeur Full Stack Senior",
-          company: "TechCorp Inc.",
-          period: "2020 - Présent",
+          title: "Ingénieur logicielle",
+          company: "BOA (Bank of Africa) Group",
+          period: "Jan 2025 - Présent",
           description:
-            "Direction du développement d'applications SaaS basées sur le cloud utilisant React, Node.js et AWS. Mise en place de pipelines CI/CD et mentorat de développeurs juniors.",
+            "Refonte de l’application métier de la BOA (Bank of Africa). Intervenu sur la modernisation de l’architecture back-end avec Java & Spring Boot, j’ai conçu et optimisé plusieurs services métiers critiques pour améliorer la performance et la fiabilité du système.",
         },
         job2: {
-          title: "Développeur Full Stack",
-          company: "WebSolutions",
-          period: "2017 - 2020",
+          title: "Consultant IT",
+          company: "ENG Technologie Groupe",
+          period: "Jul 2023 - Feb 2025",
           description:
-            "Développement et maintenance de multiples projets clients utilisant des frameworks JavaScript. Collaboration avec les équipes de design et de produit pour livrer des applications web de haute qualité.",
+            "Conception d’un système complet de gestion de demandes de crédit pour les microfinances avec intégration des APIs Wave & Orange Money utilisant Java, Spring Boot, AWS cloud, React",
         },
         job3: {
           title: "Développeur Frontend",
-          company: "CreativeAgency",
-          period: "2015 - 2017",
+          company: "Mafalia",
+          period: "Nov 2023 - Nov 2024",
           description:
-            "Création de sites web responsifs et d'interfaces utilisateur interactives pour divers clients. Concentration sur l'optimisation des performances et la compatibilité multi-navigateurs.",
+            "Développement frontal d'une plateforme de gestion de la chaîne d'approvisionnement personnalisée, adaptée aux secteurs des biens de consommation à rotation rapide et de l'hôtellerie, en utilisant Angular, en améliorant la conception de l'interface utilisateur et l'interaction pour une meilleure convivialité.",
         },
       },
       skills: {
@@ -702,8 +697,8 @@ export const translations = {
         frontend: {
           title: "Frontend",
           items: [
-            "React / Next.js",
-            "TypeScript",
+            "React / Next.js / Angular",
+            "JavaScript / TypeScript",
             "Tailwind CSS",
             "Redux / Zustand",
             "HTML5 / CSS3",
@@ -712,20 +707,20 @@ export const translations = {
         backend: {
           title: "Backend",
           items: [
+            "Java / J2EE / Spring Boot",
+            "REST & GraphQL APIs",
             "Node.js / Express",
-            "REST APIs",
-            "GraphQL",
-            "MongoDB",
-            "PostgreSQL",
+            "MongoDB, Redis",
+            "PostgreSQL, MySQL, Oracle",
           ],
         },
         devops: {
           title: "DevOps",
           items: [
-            "AWS / Vercel",
-            "Docker",
-            "CI/CD",
-            "Git / GitHub",
+            "AWS, GCP, Netlify, Vercel",
+            "Docker, Kubernetes",
+            "CI/CD, Pipelines",
+            "Git / GitHub, Gitlab",
             "Testing (Jest, Cypress)",
           ],
         },
@@ -755,59 +750,56 @@ export const translations = {
           description:
             "Construire des applications web évolutives et conviviales qui stimulent la croissance et l'efficacité des entreprises.",
           features: [
-            "Applications web personnalisées",
-            "Plateformes e-commerce",
+            "Applications web sur mesure (B2B/B2C)",
+            "Portails clients & tableaux de bord internes",
             "Tableaux de bord d'entreprise",
-            "Systèmes de gestion de contenu",
+            "Plateformes e-commerce",
             "Applications Web Progressives",
           ],
         },
         {
-          title: "Développement d'API",
+          title: "Développement d’API & Backend",
           description:
-            "Créer des API robustes qui connectent les systèmes et permettent un flux de données fluide dans toute votre organisation.",
+            "Concevoir et implémenter des backends robustes et des APIs modernes pour vos applications.",
           features: [
-            "Conception d'API RESTful",
-            "Implémentation GraphQL",
-            "Documentation d'API",
-            "Services d'intégration",
-            "Architecture de microservices",
+            "Conception & Implémentation d'API RESTful / GraphQL",
+            "Documentation technique (Swagger/OpenAPI)",
+            "Sécurisation des API (OAuth2, JWT)",
+            "Services de microservices avec Spring Boot",
           ],
         },
         {
-          title: "Conception UI/UX",
+          title: "Déploiement & DevOps",
           description:
-            "Concevoir des interfaces utilisateur intuitives qui améliorent l'expérience utilisateur et stimulent l'engagement.",
+            "Automatiser le déploiement, la surveillance et la scalabilité avec les outils DevOps modernes.",
           features: [
-            "Recherche utilisateur",
-            "Wireframing & prototypage",
-            "Design responsive",
-            "Tests d'utilisabilité",
-            "Systèmes de design",
+            "Pipelines CI/CD (GitHub Actions, GitLab CI, Bitbucket Pipelines)",
+            "Conteneurisation avec Docker",
+            "Déploiement sur GCP, AWS, Azure ou VPS",
+            "Monitoring & alertes (Grafana, Prometheus, Uptime Robot)",
           ],
         },
         {
           title: "Conseil Technique",
           description:
-            "Fournir des conseils d'experts sur les choix technologiques, les décisions d'architecture et les meilleures pratiques de développement.",
+            "Aider à faire les bons choix techniques pour une base fiable, évolutive et sécurisée.",
           features: [
-            "Évaluation de la pile technologique",
-            "Planification de l'architecture",
+            "Évaluation de la stack technologique",
+            "Conception d’architecture scalable (Hexagonale, Microservices…)",
             "Revues et audits de code",
             "Optimisation des performances",
             "Évaluations de sécurité",
           ],
         },
         {
-          title: "Transformation Numérique",
+          title: "Mentorat & Coaching Technique",
           description:
-            "Aider les entreprises à tirer parti de la technologie pour transformer les opérations et créer de nouvelles opportunités.",
+            "Accompagner les équipes ou développeurs dans leur montée en compétences techniques.",
           features: [
-            "Automatisation des processus",
-            "Modernisation des systèmes existants",
-            "Migration vers le cloud",
-            "Stratégie de données",
-            "Optimisation des flux de travail numériques",
+            "Mentorat pour développeurs juniors",
+            "Sessions de revue de code",
+            "Présentations techniques (équipe ou direction)",
+            "Formations (Java, Spring Boot, React, Git, Docker…)",
           ],
         },
       ],
@@ -1085,4 +1077,3 @@ export const translations = {
     },
   },
 };
-

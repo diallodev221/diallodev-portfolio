@@ -1,29 +1,37 @@
-import type React from "react"
-import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
-import { LanguageProvider } from "@/lib/i18n/context"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
-import Preloader from "@/components/preloader"
-import "./globals.css"
+import type React from "react";
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
+import { LanguageProvider } from "@/lib/i18n/context";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import Preloader from "@/components/preloader";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Diallo | Technology & Business Solutions",
-  description: "Bridging technology and business needs with scalable, user-centric solutions.",
-    generator: 'v0.dev'
-}
+  description:
+    "Bridging technology and business needs with scalable, user-centric solutions.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  readonly children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="fr" suppressHydrationWarning>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
           <LanguageProvider>
             <Preloader />
             <Navbar />
@@ -33,9 +41,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
-
-
-
-import './globals.css'

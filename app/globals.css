@@ -98,7 +98,7 @@
 }
 
 .content-container {
-  @apply max-w-4xl mx-auto px-3;
+  @apply max-w-5xl mx-auto px-3;
 }
 
 /* Add these utility classes for text alignment */

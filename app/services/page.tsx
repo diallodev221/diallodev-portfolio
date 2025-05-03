@@ -25,7 +25,7 @@ export default function ServicesPage() {
             >
               <div className="p-8">
                 <h2 className="text-2xl font-bold mb-3">{service.title}</h2>
-                <p className="text-muted-foreground mb-6 text-justify">{service.description}</p>
+                <p className="text-muted-foreground mb-6">{service.description}</p>
 
                 <ul className="space-y-3 mb-8">
                   {service.features.map((feature: string, featureIndex: number) => (
