@@ -77,116 +77,33 @@ export default function ResumePage() {
                     </div>
                   ))}
                 </div> */}
+
                 <div className="space-y-8">
-                  <div className="relative pl-8 border-l-2 border-primary/30">
-                    <div className="absolute top-0 left-[-9px] w-4 h-4 rounded-full gradient-bg"></div>
-                    <div className="mb-1">
-                      <span className="inline-block px-3 py-1 text-xs rounded-full gradient-bg text-white mb-2">
-                        2021 - Present
-                      </span>
+                  {companies.map((company: any, index: number) => (
+                    <div
+                      key={index}
+                      className="relative pl-8 border-l-2 border-primary/30"
+                    >
+                      <div className="absolute top-0 left-[-9px] w-4 h-4 rounded-full gradient-bg"></div>
+                      <div className="mb-1">
+                        <span className="inline-block px-3 py-1 text-xs rounded-full gradient-bg text-white mb-2">
+                          {company.period}
+                        </span>
+                      </div>
+                      <h3 className="text-xl font-bold">{company.position}</h3>
+                      <p className="text-primary font-medium mb-2">
+                        {company.name}
+                      </p>
+                      <p className="text-muted-foreground mb-4">
+                        {company.description}
+                      </p>
+                      <ul className="list-disc list-inside space-y-1 text-muted-foreground">
+                        {company.subInfos?.map((info: any, index: number) => (
+                          <li key={index}>{info}</li>
+                        ))}                        
+                      </ul>
                     </div>
-                    <h3 className="text-xl font-bold">
-                      Senior Technology Consultant
-                    </h3>
-                    <p className="text-primary font-medium mb-2">
-                      Business Solutions Inc.
-                    </p>
-                    <p className="text-muted-foreground mb-4">
-                      Leading technology initiatives for enterprise clients,
-                      focusing on digital transformation and business process
-                      optimization.
-                    </p>
-                    <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-                      <li>
-                        Developed strategic technology roadmaps for 15+
-                        enterprise clients
-                      </li>
-                      <li>
-                        Implemented solutions that reduced operational costs by
-                        an average of 30%
-                      </li>
-                      <li>
-                        Led cross-functional teams to deliver complex projects
-                        on time and within budget
-                      </li>
-                      <li>
-                        Designed scalable architectures that supported business
-                        growth of 40-60%
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="relative pl-8 border-l-2 border-primary/30">
-                    <div className="absolute top-0 left-[-9px] w-4 h-4 rounded-full gradient-bg"></div>
-                    <div className="mb-1">
-                      <span className="inline-block px-3 py-1 text-xs rounded-full gradient-bg text-white mb-2">
-                        2018 - 2021
-                      </span>
-                    </div>
-                    <h3 className="text-xl font-bold">Full Stack Developer</h3>
-                    <p className="text-primary font-medium mb-2">
-                      Tech Innovations Ltd.
-                    </p>
-                    <p className="text-muted-foreground mb-4">
-                      Developed and maintained enterprise applications with a
-                      focus on business process automation and data analytics.
-                    </p>
-                    <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-                      <li>
-                        Built custom ERP modules that improved workflow
-                        efficiency by 45%
-                      </li>
-                      <li>
-                        Designed and implemented APIs that integrated disparate
-                        business systems
-                      </li>
-                      <li>
-                        Created data visualization dashboards for executive
-                        decision-making
-                      </li>
-                      <li>
-                        Optimized database performance, reducing query times by
-                        60%
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="relative pl-8 border-l-2 border-primary/30">
-                    <div className="absolute top-0 left-[-9px] w-4 h-4 rounded-full gradient-bg"></div>
-                    <div className="mb-1">
-                      <span className="inline-block px-3 py-1 text-xs rounded-full gradient-bg text-white mb-2">
-                        2016 - 2018
-                      </span>
-                    </div>
-                    <h3 className="text-xl font-bold">
-                      Business Analyst & Developer
-                    </h3>
-                    <p className="text-primary font-medium mb-2">
-                      Global Solutions Group
-                    </p>
-                    <p className="text-muted-foreground mb-4">
-                      Bridged the gap between business requirements and
-                      technical implementation for enterprise clients.
-                    </p>
-                    <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-                      <li>
-                        Gathered and documented business requirements for
-                        technology projects
-                      </li>
-                      <li>
-                        Developed prototypes and proof-of-concepts for client
-                        approval
-                      </li>
-                      <li>
-                        Implemented solutions that increased client operational
-                        efficiency by 25%
-                      </li>
-                      <li>
-                        Created technical documentation and training materials
-                        for end-users
-                      </li>
-                    </ul>
-                  </div>
+                  ))}
                 </div>
               </section>
 

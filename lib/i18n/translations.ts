@@ -388,49 +388,49 @@ export const translations = {
       },
     },
     // Blog page
-    blog: {
-      title: "Blog",
-      description:
-        "Insights on technology, business integration, and digital transformation strategies",
-      featured: "Featured",
-      readArticle: "Read Article",
-      categories: "Categories",
-      subscribe: "Subscribe",
-      subscribeText:
-        "Get the latest articles and insights delivered to your inbox.",
-      yourEmail: "Your email address",
-      subscribeButton: "Subscribe",
-      loadMore: "Load More Articles",
-      date: "Date",
-      readTime: "Read Time",
-      author: "Author",
-      relatedArticles: "Related Articles",
-      backToAllArticles: "Back to all articles",
-      whatToExpect: "What to expect",
-      previousIssues: "Previous Issues",
-      expectationItems: [
-        {
-          title: "Tutorials & Guides",
-          description:
-            "Step-by-step tutorials and comprehensive guides on web development topics, from beginner to advanced.",
-        },
-        {
-          title: "Code Snippets",
-          description:
-            "Useful code snippets and solutions to common programming challenges that you can use in your projects.",
-        },
-        {
-          title: "Industry News",
-          description:
-            "Updates on the latest frameworks, libraries, and tools in the web development ecosystem.",
-        },
-        {
-          title: "Career Advice",
-          description:
-            "Tips and insights on advancing your career as a developer, including interview preparation and skill development.",
-        },
-      ],
-    },
+    // blog: {
+    //   title: "Blog",
+    //   description:
+    //     "Insights on technology, business integration, and digital transformation strategies",
+    //   featured: "Featured",
+    //   readArticle: "Read Article",
+    //   categories: "Categories",
+    //   subscribe: "Subscribe",
+    //   subscribeText:
+    //     "Get the latest articles and insights delivered to your inbox.",
+    //   yourEmail: "Your email address",
+    //   subscribeButton: "Subscribe",
+    //   loadMore: "Load More Articles",
+    //   date: "Date",
+    //   readTime: "Read Time",
+    //   author: "Author",
+    //   relatedArticles: "Related Articles",
+    //   backToAllArticles: "Back to all articles",
+    //   whatToExpect: "What to expect",
+    //   previousIssues: "Previous Issues",
+    //   expectationItems: [
+    //     {
+    //       title: "Tutorials & Guides",
+    //       description:
+    //         "Step-by-step tutorials and comprehensive guides on web development topics, from beginner to advanced.",
+    //     },
+    //     {
+    //       title: "Code Snippets",
+    //       description:
+    //         "Useful code snippets and solutions to common programming challenges that you can use in your projects.",
+    //     },
+    //     {
+    //       title: "Industry News",
+    //       description:
+    //         "Updates on the latest frameworks, libraries, and tools in the web development ecosystem.",
+    //     },
+    //     {
+    //       title: "Career Advice",
+    //       description:
+    //         "Tips and insights on advancing your career as a developer, including interview preparation and skill development.",
+    //     },
+    //   ],
+    // },
     // Resume page
     resume: {
       title: "Resume",
@@ -820,8 +820,8 @@ export const translations = {
         frontend: {
           title: "Développement Frontend",
           skills: [
-            { name: "React & Next.js", level: "95%" },
-            { name: "TypeScript", level: "90%" },
+            { name: "React & Next.js / Angular", level: "95%" },
+            { name: "JavaScript, TypeScript", level: "90%" },
             { name: "HTML/CSS/Tailwind", level: "95%" },
             { name: "Redux & Context API", level: "85%" },
             { name: "Design Responsive", level: "90%" },
@@ -830,21 +830,35 @@ export const translations = {
         backend: {
           title: "Développement Backend",
           skills: [
-            { name: "Node.js & Express", level: "90%" },
+            { name: "Java, J2EE & Spring Boot, Jhispter", level: "90%" },
+            { name: "NestJS", level: "90%" },
             { name: "APIs RESTful", level: "95%" },
             { name: "GraphQL", level: "85%" },
-            { name: "MongoDB & PostgreSQL", level: "90%" },
             { name: "Authentification & Sécurité", level: "85%" },
           ],
         },
         devops: {
           title: "DevOps",
           skills: [
-            { name: "AWS & Vercel", level: "90%" },
-            { name: "Docker", level: "85%" },
-            { name: "CI/CD", level: "90%" },
+            { name: "AWS, GCP, Netlify, Vercel", level: "90%" },
+            { name: "Docker, Kubernetes", level: "85%" },
+            { name: "CI/CD, Pipelines", level: "90%" },
             { name: "Git & GitHub", level: "95%" },
             { name: "Tests (Jest, Cypress)", level: "85%" },
+          ],
+        },
+        database: {
+          title: "Gestion des bases de données",
+          skills: [
+            {
+              name: "Oracle - PostgreSQL - MySQL - Redis - MongoDB",
+              level: "90%",
+            },
+            { name: "Database Design", level: "85%" },
+            { name: "Data Modeling", level: "85%" },
+            { name: "Stored Procedures", level: "80%" },
+            { name: "Database Optimization", level: "85%" },
+            { name: "Data Migration", level: "80%" },
           ],
         },
       },
@@ -873,49 +887,49 @@ export const translations = {
       },
     },
     // Blog page
-    blog: {
-      title: "Blog",
-      description:
-        "Réflexions sur la technologie, l'intégration commerciale et les stratégies de transformation numérique",
-      featured: "À la une",
-      readArticle: "Lire l'article",
-      categories: "Catégories",
-      subscribe: "S'abonner",
-      subscribeText:
-        "Recevez les derniers articles et insights directement dans votre boîte de réception.",
-      yourEmail: "Votre adresse email",
-      subscribeButton: "S'abonner",
-      loadMore: "Charger plus d'articles",
-      date: "Date",
-      readTime: "Temps de lecture",
-      author: "Auteur",
-      relatedArticles: "Articles connexes",
-      backToAllArticles: "Retour à tous les articles",
-      whatToExpect: "À quoi s'attendre",
-      previousIssues: "Numéros précédents",
-      expectationItems: [
-        {
-          title: "Tutoriels & Guides",
-          description:
-            "Tutoriels étape par étape et guides complets sur les sujets de développement web, du débutant à l'avancé.",
-        },
-        {
-          title: "Extraits de Code",
-          description:
-            "Extraits de code utiles et solutions aux défis de programmation courants que vous pouvez utiliser dans vos projets.",
-        },
-        {
-          title: "Actualités de l'Industrie",
-          description:
-            "Mises à jour sur les derniers frameworks, bibliothèques et outils dans l'écosystème du développement web.",
-        },
-        {
-          title: "Conseils de Carrière",
-          description:
-            "Conseils et insights pour faire progresser votre carrière de développeur, y compris la préparation aux entretiens et le développement des compétences.",
-        },
-      ],
-    },
+    // blog: {
+    //   title: "Blog",
+    //   description:
+    //     "Réflexions sur la technologie, l'intégration commerciale et les stratégies de transformation numérique",
+    //   featured: "À la une",
+    //   readArticle: "Lire l'article",
+    //   categories: "Catégories",
+    //   subscribe: "S'abonner",
+    //   subscribeText:
+    //     "Recevez les derniers articles et insights directement dans votre boîte de réception.",
+    //   yourEmail: "Votre adresse email",
+    //   subscribeButton: "S'abonner",
+    //   loadMore: "Charger plus d'articles",
+    //   date: "Date",
+    //   readTime: "Temps de lecture",
+    //   author: "Auteur",
+    //   relatedArticles: "Articles connexes",
+    //   backToAllArticles: "Retour à tous les articles",
+    //   whatToExpect: "À quoi s'attendre",
+    //   previousIssues: "Numéros précédents",
+    //   expectationItems: [
+    //     {
+    //       title: "Tutoriels & Guides",
+    //       description:
+    //         "Tutoriels étape par étape et guides complets sur les sujets de développement web, du débutant à l'avancé.",
+    //     },
+    //     {
+    //       title: "Extraits de Code",
+    //       description:
+    //         "Extraits de code utiles et solutions aux défis de programmation courants que vous pouvez utiliser dans vos projets.",
+    //     },
+    //     {
+    //       title: "Actualités de l'Industrie",
+    //       description:
+    //         "Mises à jour sur les derniers frameworks, bibliothèques et outils dans l'écosystème du développement web.",
+    //     },
+    //     {
+    //       title: "Conseils de Carrière",
+    //       description:
+    //         "Conseils et insights pour faire progresser votre carrière de développeur, y compris la préparation aux entretiens et le développement des compétences.",
+    //     },
+    //   ],
+    // },
     // Resume page
     resume: {
       title: "CV",
@@ -925,44 +939,52 @@ export const translations = {
         title: "Expérience Professionnelle",
         companies: [
           {
-            name: "Broadcom",
-            position: "Défenseur des Développeurs Spring",
-            period: "2023—Présent",
+            name: "BOA (Bank of Africa) Group",
+            position: "Ingénieur logicielle",
+            period: "Jan 2025 — Présent",
+            description:
+              "Refonte de l'application métier de la BOA (Bank of Africa). Intervenu sur la modernisation de l'architecture back-end avec Java & Spring Boot, j'ai conçu et optimisé plusieurs services métiers critiques pour améliorer la performance et la fiabilité du système.",
+            subInfos: [
+              "Conception et implémentation d'une nouvelle architecture microservices",
+              "Optimisation des performances avec mise en cache Redis et indexation Elasticsearch",
+              "Mise en place de tests automatisés et intégration continue avec Jenkins"
+            ],
           },
           {
-            name: "VMware",
-            position: "Défenseur des Développeurs Spring",
-            period: "2022—2023",
+            name: "ENG Technologie Groupe", 
+            position: "Consultant IT",
+            period: "Jul 2023 — Feb 2025",
+            description:
+              "Conception d'un système complet de gestion de demandes de crédit pour les microfinances avec intégration des APIs Wave & Orange Money utilisant Java, Spring Boot, AWS cloud, React",
+            subInfos: [
+              "Développement d'APIs RESTful pour l'intégration avec Wave et Orange Money",
+              "Mise en place d'une architecture cloud-native sur AWS avec conteneurisation Docker",
+              "Implémentation de fonctionnalités de sécurité et authentification OAuth2"
+            ],
           },
           {
-            name: "Briebug",
-            position: "Architecte Java Enterprise Principal",
-            period: "2021—2022",
+            name: "Mafalia",
+            position: "Développeur Frontend",
+            period: "Nov 2023 — Nov 2024",
+            description:
+              "Développement frontal d'une plateforme de gestion de la chaîne d'approvisionnement personnalisée, adaptée aux secteurs des biens de consommation à rotation rapide et de l'hôtellerie, en utilisant Angular, en améliorant la conception de l'interface utilisateur et l'interaction pour une meilleure convivialité.",
+            subInfos: [
+              "Développement de composants Angular réutilisables et modulaires",
+              "Optimisation des performances frontend avec lazy loading et SSR",
+              "Intégration de visualisations de données avec D3.js et NgRx pour la gestion d'état"
+            ],
           },
           {
-            name: "Tech Elevator",
-            position: "Développeur de Curriculum",
-            period: "2018—2021",
-          },
-          {
-            name: "Markel",
-            position: "Développeur Senior",
-            period: "2012—2018",
-          },
-          {
-            name: "Steris",
-            position: "Développeur Web Senior",
-            period: "2008—2012",
-          },
-          {
-            name: "LetterNine",
-            position: "Développeur Web",
-            period: "2004—2008",
-          },
-          {
-            name: "Five9",
-            position: "Spécialiste du Support Technique",
-            period: "2001—2004",
+            name: "SarayaTech Senegal",
+            position: "Développeur FullStack",
+            period: "Dec 2022 — Feb 2023",
+            description:
+              "Développement d'une application web de gestion des ressources humaines avec Spring Boot et Angular. Implémentation de fonctionnalités clés comme le suivi des congés, la gestion des performances et le reporting.",
+            subInfos: [
+              "Création d'une architecture full-stack moderne avec Spring Boot et Angular",
+              "Mise en place d'une base de données PostgreSQL avec gestion des migrations",
+              "Développement d'un système de reporting avancé avec JasperReports"
+            ],
           },
         ],
       },
@@ -977,18 +999,17 @@ export const translations = {
               "Spécialisé en Gestion de la Technologie et Analyse d'Affaires. Diplômé avec mention. Le programme s'est concentré sur le rapprochement de la technologie et de la stratégie commerciale, offrant une compréhension complète de la façon de tirer parti de la technologie pour la croissance et l'innovation des entreprises.",
           },
           {
-            degree: "Licence en Informatique",
-            school: "Institut Technologique",
-            period: "2004 - 2008",
+            degree: "Licence Mathématiques et Innformatiques",
+            school: "Université Virtuelle du Sénégal",
+            period: "Jan 2020 - Feb 2023",
             description:
-              "Concentration sur l'ingénierie logicielle et les systèmes d'information d'entreprise. Diplômé summa cum laude. Les cours comprenaient la programmation avancée, la conception de bases de données, l'architecture de systèmes et la modélisation des processus d'entreprise, fournissant une base solide pour le développement de logiciels d'entreprise.",
+              "Concentration sur l'ingénierie logicielle et les systèmes d'information d'entreprise. Les cours comprenaient la programmation avancée, la conception de bases de données, l'architecture de systèmes et la modélisation des processus d'entreprise, fournissant une base solide pour le développement de logiciels d'entreprise.",
           },
         ],
       },
       competencies: {
         title: "Compétences Principales",
         items: [
-          { name: "Analyse d'Affaires", level: "95%" },
           { name: "Architecture de Solutions", level: "90%" },
           { name: "Développement Full Stack", level: "95%" },
           { name: "Gestion de Projet", level: "85%" },
@@ -998,26 +1019,26 @@ export const translations = {
       certifications: {
         title: "Certifications",
         items: [
-          {
-            name: "AWS Certified Solutions Architect",
-            issuer: "Amazon Web Services",
-            year: "2020",
-          },
-          {
-            name: "Certified Scrum Master",
-            issuer: "Scrum Alliance",
-            year: "2019",
-          },
-          {
-            name: "Professional Project Manager (PMP)",
-            issuer: "Project Management Institute",
-            year: "2018",
-          },
-          {
-            name: "Microsoft Certified: Azure Solutions Architect",
-            issuer: "Microsoft",
-            year: "2021",
-          },
+          // {
+          //   name: "AWS Certified Solutions Architect",
+          //   issuer: "Amazon Web Services",
+          //   year: "2020",
+          // },
+          // {
+          //   name: "Certified Scrum Master",
+          //   issuer: "Scrum Alliance",
+          //   year: "2019",
+          // },
+          // {
+          //   name: "Professional Project Manager (PMP)",
+          //   issuer: "Project Management Institute",
+          //   year: "2018",
+          // },
+          // {
+          //   name: "Microsoft Certified: Azure Solutions Architect",
+          //   issuer: "Microsoft",
+          //   year: "2021",
+          // },
         ],
       },
       languages: {
@@ -1025,7 +1046,6 @@ export const translations = {
         items: [
           { name: "Anglais", level: "100%", proficiency: "Natif" },
           { name: "Français", level: "85%", proficiency: "Professionnel" },
-          { name: "Espagnol", level: "70%", proficiency: "Intermédiaire" },
         ],
       },
     },
