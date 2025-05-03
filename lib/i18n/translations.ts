@@ -440,44 +440,52 @@ export const translations = {
         title: "Work Experience",
         companies: [
           {
-            name: "Broadcom",
-            position: "Spring Developer Advocate",
-            period: "2023—Present",
+            name: "BOA (Bank of Africa) Group",
+            position: "Software Engineer",
+            period: "Jan 2025 — Present",
+            description:
+              "Redesign of BOA’s core business application. Contributed to the modernization of the backend architecture using Java & Spring Boot by designing and optimizing several critical business services to improve system performance and reliability.",
+            subInfos: [
+              "Designed and implemented a new microservices-based architecture",
+              "Optimized performance using Redis caching and Elasticsearch indexing",
+              "Set up automated testing and continuous integration using Jenkins",
+            ],
           },
           {
-            name: "VMware",
-            position: "Spring Developer Advocate",
-            period: "2022—2023",
+            name: "ENG Technologie Group",
+            position: "IT Consultant",
+            period: "Jul 2023 — Feb 2025",
+            description:
+              "Designed a comprehensive credit request management system for microfinance institutions with integration of Wave & Orange Money APIs using Java, Spring Boot, AWS Cloud, and React.",
+            subInfos: [
+              "Developed RESTful APIs to integrate with Wave and Orange Money",
+              "Built a cloud-native architecture on AWS with Docker containerization",
+              "Implemented security features and OAuth2 authentication",
+            ],
           },
           {
-            name: "Briebug",
-            position: "Principal Enterprise Java Architect",
-            period: "2021—2022",
+            name: "Mafalia",
+            position: "Frontend Developer",
+            period: "Nov 2023 — Nov 2024",
+            description:
+              "Frontend development of a custom supply chain management platform tailored for FMCG and hospitality sectors using Angular. Improved UI/UX design and interactions for better usability.",
+            subInfos: [
+              "Developed reusable and modular Angular components",
+              "Enhanced frontend performance through lazy loading and SSR",
+              "Integrated data visualizations with D3.js and state management using NgRx",
+            ],
           },
           {
-            name: "Tech Elevator",
-            position: "Curriculum Developer",
-            period: "2018—2021",
-          },
-          {
-            name: "Markel",
-            position: "Senior Developer",
-            period: "2012—2018",
-          },
-          {
-            name: "Steris",
-            position: "Senior Web Developer",
-            period: "2008—2012",
-          },
-          {
-            name: "LetterNine",
-            position: "Web Developer",
-            period: "2004—2008",
-          },
-          {
-            name: "Five9",
-            position: "Technical Support Specialist",
-            period: "2001—2004",
+            name: "SarayaTech Senegal",
+            position: "Full-Stack Developer",
+            period: "Dec 2022 — Feb 2023",
+            description:
+              "Developed a web application for human resources management using Spring Boot and Angular. Implemented core features like leave tracking, performance management, and advanced reporting.",
+            subInfos: [
+              "Created a modern full-stack architecture with Spring Boot and Angular",
+              "Set up PostgreSQL database with migration handling",
+              "Built an advanced reporting system using JasperReports",
+            ],
           },
         ],
       },
@@ -485,18 +493,18 @@ export const translations = {
         title: "Education",
         items: [
           {
-            degree: "Master of Business Administration (MBA)",
-            school: "Business School University",
-            period: "2008 - 2012",
-            description:
-              "Specialized in Technology Management and Business Analytics. Graduated with honors. The program focused on bridging technology and business strategy, providing a comprehensive understanding of how to leverage technology for business growth and innovation.",
+            degree: "Master Software Engineering",
+            school: "Digital Virtuelle University of Senegal",
+            period: "2024 - ",
+            description:              
+              "Focus on software engineering. Coursework included advanced programming, database design, systems architecture, providing a solid foundation for enterprise software development.",
           },
           {
             degree: "Bachelor of Science in Computer Science",
-            school: "Tech Institute",
-            period: "2004 - 2008",
+            school: "Digital Virtuelle University of Senegal",
+            period: "2020 - 2023",
             description:
-              "Focus on software engineering and business information systems. Graduated summa cum laude. Coursework included advanced programming, database design, systems architecture, and business process modeling, providing a solid foundation for enterprise software development.",
+              "Focus on software engineering. Coursework included advanced programming, database design, systems architecture, providing a solid foundation for enterprise software development.",
           },
         ],
       },
@@ -513,26 +521,26 @@ export const translations = {
       certifications: {
         title: "Certifications",
         items: [
-          {
-            name: "AWS Certified Solutions Architect",
-            issuer: "Amazon Web Services",
-            year: "2020",
-          },
-          {
-            name: "Certified Scrum Master",
-            issuer: "Scrum Alliance",
-            year: "2019",
-          },
-          {
-            name: "Professional Project Manager (PMP)",
-            issuer: "Project Management Institute",
-            year: "2018",
-          },
-          {
-            name: "Microsoft Certified: Azure Solutions Architect",
-            issuer: "Microsoft",
-            year: "2021",
-          },
+          // {
+          //   name: "AWS Certified Solutions Architect",
+          //   issuer: "Amazon Web Services",
+          //   year: "2020",
+          // },
+          // {
+          //   name: "Certified Scrum Master",
+          //   issuer: "Scrum Alliance",
+          //   year: "2019",
+          // },
+          // {
+          //   name: "Professional Project Manager (PMP)",
+          //   issuer: "Project Management Institute",
+          //   year: "2018",
+          // },
+          // {
+          //   name: "Microsoft Certified: Azure Solutions Architect",
+          //   issuer: "Microsoft",
+          //   year: "2021",
+          // },
         ],
       },
       languages: {
@@ -947,11 +955,11 @@ export const translations = {
             subInfos: [
               "Conception et implémentation d'une nouvelle architecture microservices",
               "Optimisation des performances avec mise en cache Redis et indexation Elasticsearch",
-              "Mise en place de tests automatisés et intégration continue avec Jenkins"
+              "Mise en place de tests automatisés et intégration continue avec Jenkins",
             ],
           },
           {
-            name: "ENG Technologie Groupe", 
+            name: "ENG Technologie Groupe",
             position: "Consultant IT",
             period: "Jul 2023 — Feb 2025",
             description:
@@ -959,7 +967,7 @@ export const translations = {
             subInfos: [
               "Développement d'APIs RESTful pour l'intégration avec Wave et Orange Money",
               "Mise en place d'une architecture cloud-native sur AWS avec conteneurisation Docker",
-              "Implémentation de fonctionnalités de sécurité et authentification OAuth2"
+              "Implémentation de fonctionnalités de sécurité et authentification OAuth2",
             ],
           },
           {
@@ -971,7 +979,7 @@ export const translations = {
             subInfos: [
               "Développement de composants Angular réutilisables et modulaires",
               "Optimisation des performances frontend avec lazy loading et SSR",
-              "Intégration de visualisations de données avec D3.js et NgRx pour la gestion d'état"
+              "Intégration de visualisations de données avec D3.js et NgRx pour la gestion d'état",
             ],
           },
           {
@@ -983,7 +991,7 @@ export const translations = {
             subInfos: [
               "Création d'une architecture full-stack moderne avec Spring Boot et Angular",
               "Mise en place d'une base de données PostgreSQL avec gestion des migrations",
-              "Développement d'un système de reporting avancé avec JasperReports"
+              "Développement d'un système de reporting avancé avec JasperReports",
             ],
           },
         ],
