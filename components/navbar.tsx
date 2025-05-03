@@ -21,7 +21,6 @@ export default function Navbar() {
     { name: t("nav.services"), href: "/services" },
     { name: t("nav.works"), href: "/works" },
     { name: t("nav.skills"), href: "/skills" },
-    { name: t("nav.blog"), href: "/blog" },
     { name: t("nav.resume"), href: "/resume" },
     { name: t("nav.contact"), href: "/contact" },
   ];
