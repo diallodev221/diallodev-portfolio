@@ -6,16 +6,23 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Preloader from "@/components/preloader";
 import "./globals.css";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Diallo | Technology & Business Solutions",
   description:
     "Bridging technology and business needs with scalable, user-centric solutions.",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  icons: [
+    {
+      url: "/favicon.ico" 
+    },
+     { url: "/icon.png", type: "image/png" }
+  ]
+  // icons: {
+  //   icon: "/favicon.ico",
+  // },
 };
 
 export default function RootLayout({

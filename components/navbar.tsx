@@ -10,6 +10,7 @@ import LanguageSwitcher from "@/components/language-switcher";
 import { useLanguage } from "@/lib/i18n/context";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Navbar() {
   const { t } = useLanguage();
@@ -30,9 +31,13 @@ export default function Navbar() {
       <div className="container flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center">
-            <div className="w-10 h-10 rounded-md gradient-bg flex items-center justify-center text-white font-bold text-xl">
-              D
-            </div>
+            <Image
+              src={"/logo.png"}
+              alt="Diallodev"
+              width={40}
+              height={40}
+              className="gradient-bg flex items-center justify-center text-white font-bold text-xl"
+            />
             <span className="ml-2 hidden sm:inline-block text-sm">
               Diallodev
             </span>
