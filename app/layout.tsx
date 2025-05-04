@@ -11,18 +11,13 @@ import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Diallo | Technology & Business Solutions",
+  title: "Diallodev | Technology & Business Solutions",
   description:
     "Bridging technology and business needs with scalable, user-centric solutions.",
-  icons: [
-    {
-      url: "/favicon.ico" 
-    },
-     { url: "/icon.png", type: "image/png" }
-  ]
-  // icons: {
-  //   icon: "/favicon.ico",
-  // },
+  icons: {
+    icon: "/logo.png",
+    apple: ""
+  },
 };
 
 export default function RootLayout({
