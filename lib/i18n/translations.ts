@@ -496,7 +496,7 @@ export const translations = {
             degree: "Master Software Engineering",
             school: "Digital Virtuelle University of Senegal",
             period: "2024 - ",
-            description:              
+            description:
               "Focus on software engineering. Coursework included advanced programming, database design, systems architecture, providing a solid foundation for enterprise software development.",
           },
           {
@@ -558,7 +558,7 @@ export const translations = {
         "Ready to discuss your project? I'm here to help you bridge technology and business needs with scalable, user-centric solutions that drive growth.",
       location: {
         title: "Location",
-        value: "San Francisco, CA",
+        value: "Dakar, Senegal",
       },
       email: {
         title: "Email",
@@ -566,7 +566,7 @@ export const translations = {
       },
       phone: {
         title: "Phone",
-        value: "+1 (555) 123-4567",
+        value: "+221 771244151",
       },
       connectWithMe: "Connect with me",
       form: {
@@ -1063,16 +1063,16 @@ export const translations = {
       description:
         "Prêt à discuter de votre projet? Je suis là pour vous aider à relier la technologie et les besoins commerciaux avec des solutions évolutives centrées sur l'utilisateur qui stimulent la croissance.",
       location: {
-        title: "Emplacement",
-        value: "San Francisco, CA",
+        title: "Location",
+        value: "Dakar, Senegal",
       },
       email: {
         title: "Email",
         value: "contact@diallodev.com",
       },
       phone: {
-        title: "Téléphone",
-        value: "+1 (555) 123-4567",
+        title: "Phone",
+        value: "+221 771244151",
       },
       connectWithMe: "Connectez-vous avec moi",
       form: {

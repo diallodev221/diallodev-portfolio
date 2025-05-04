@@ -96,12 +96,12 @@ export default function Footer() {
             >
               {t("nav.skills")}
             </Link>
-            <Link
+            {/* <Link
               href="/blog"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               {t("nav.blog")}
-            </Link>
+            </Link> */}
             <Link
               href="/resume"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
