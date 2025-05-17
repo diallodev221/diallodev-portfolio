@@ -74,7 +74,7 @@ export const translations = {
     about: {
       title: "About Me",
       intro: {
-        p1: "👋 Hello! I'm Saïfoulaye Diallo, a Full Stack Developer with over 5 years of experience building uilding modern and scalable web applications. I specialize in Java, Spring Boot, Angular, and React, and I’m passionate about creating clean, maintainable, and efficient solutions that make a real impact.",
+        p1: "👋 Hello! I'm Saïfoulaye Diallo, a Software Engineer. I build scalable, user-friendly applications that bridge the gap between technical needs and business goals. My expertise spans Java (Spring Boot), Microservices, and modern front-end technologies like React and Angular. I've contributed to a wide range of projects—from small applications to complex, enterprise-level systems.",
         p2: "💡 My journey in software development began when I was in college, where I built small websites for local businesses. Since then, I've worked with startups and large enterprises to create scalable, user-friendly applications.",
         p3: "🧠 When I'm not coding, I enjoy writing technical articles, contributing to open source projects, and mentoring aspiring developers. I believe in continuous learning and sharing knowledge with the community.",
         p4: "🌱 This website serves as my digital garden where I document my learning journey and share insights about web development, software architecture, and best practices.",
@@ -676,8 +676,8 @@ export const translations = {
     about: {
       title: "À Propos de Moi",
       intro: {
-        p1: "👋 Bonjour! Je suis Saïfoulaye Diallo, un Développeur Full Stack avec plus de 5 ans d'expérience dans la création d’applications web modernes et évolutives. Spécialisé en Java, Spring Boot, Angular et React, je suis passionné par le développement de solutions propres, maintenables et performantes qui ont un véritable impact.",
-        p2: "💡 Mon parcours dans le développement logiciel a commencé lorsque j'étais à l'université, où j'ai créé de petits sites web pour des entreprises locales. Depuis, j'ai travaillé avec des startups et de grandes entreprises pour créer des applications évolutives et conviviales.",
+        p1: "👋 Bonjour! Je suis Saïfoulaye Diallo, Ingénieur logicel. je me spécialise dans la création d’applications scalables et conviviales, pensées pour répondre aux besoins techniques tout en soutenant les objectifs métiers. Mon expertise couvre Java (Spring Boot), les architectures Microservices, ainsi que les technologies front-end telles que React et Angular. J’ai participé à des projets variés, allant d’applications à petite échelle à des systèmes complexes de niveau entreprise.",
+        p2: "💡 Mon parcours dans le développement logiciel a commencé lorsque j'étais à l'université, où j'ai créé de petits sites web pour des entreprises locales. Depuis, j'ai travaillé avec des startups et de grandes entreprises comme BOA Group pour créer des applications évolutives et conviviales.",
         p3: "🧠 Je crois profondément en l’apprentissage continu, l’architecture propre et le partage de connaissances. Quand je ne code pas, j'aime écrire des articles techniques, encadrer des développeurs en herbe. Je crois en l'apprentissage continu et au partage des connaissances avec la communauté.",
         p4: "🌱 Ce site est mon jardin numérique un espace où je documente mon parcours, partage des réflexions sur le développement logiciel, l’architecture, les bonnes pratiques, et évolue aux côtés de la communauté tech.",
       },
