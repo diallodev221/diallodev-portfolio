@@ -128,7 +128,7 @@ export default function ResumePage() {
                       <p className="text-primary font-medium mb-2">
                         {item.school}
                       </p>
-                      <p className="text-muted-foreground text-justify">
+                      <p className="text-muted-foreground">
                         {item.description}
                       </p>
                     </div>

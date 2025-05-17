@@ -446,9 +446,9 @@ export const translations = {
             description:
               "Redesign of BOA’s core business application. Contributed to the modernization of the backend architecture using Java & Spring Boot by designing and optimizing several critical business services to improve system performance and reliability.",
             subInfos: [
-              "Designed and implemented a new microservices-based architecture",
-              "Optimized performance using Redis caching and Elasticsearch indexing",
-              "Set up automated testing and continuous integration using Jenkins",
+              // "Designed and implemented a new microservices-based architecture",
+              // "Optimized performance using Redis caching and Elasticsearch indexing",
+              // "Set up automated testing and continuous integration using Jenkins",
             ],
           },
           {
@@ -470,9 +470,9 @@ export const translations = {
             description:
               "Frontend development of a custom supply chain management platform tailored for FMCG and hospitality sectors using Angular. Improved UI/UX design and interactions for better usability.",
             subInfos: [
-              "Developed reusable and modular Angular components",
-              "Enhanced frontend performance through lazy loading and SSR",
-              "Integrated data visualizations with D3.js and state management using NgRx",
+              // "Developed reusable and modular Angular components",
+              // "Enhanced frontend performance through lazy loading and SSR",
+              // "Integrated data visualizations with D3.js and state management using NgRx",
             ],
           },
           {
@@ -482,9 +482,9 @@ export const translations = {
             description:
               "Developed a web application for human resources management using Spring Boot and Angular. Implemented core features like leave tracking, performance management, and advanced reporting.",
             subInfos: [
-              "Created a modern full-stack architecture with Spring Boot and Angular",
-              "Set up PostgreSQL database with migration handling",
-              "Built an advanced reporting system using JasperReports",
+              // "Created a modern full-stack architecture with Spring Boot and Angular",
+              // "Set up PostgreSQL database with migration handling",
+              // "Built an advanced reporting system using JasperReports",
             ],
           },
         ],
@@ -521,6 +521,11 @@ export const translations = {
       certifications: {
         title: "Certifications",
         items: [
+          {
+            name: "Full-Stack Java Developer",
+            issuer: "SarayaTech Senegal",
+            year: "2020",
+          },
           // {
           //   name: "AWS Certified Solutions Architect",
           //   issuer: "Amazon Web Services",
@@ -807,7 +812,7 @@ export const translations = {
             "Mentorat pour développeurs juniors",
             "Sessions de revue de code",
             "Présentations techniques (équipe ou direction)",
-            "Formations (Java, Spring Boot, React, Git, Docker…)",
+            "Formateur (Java, Spring Boot, React, Git, Docker…)",
           ],
         },
       ],
@@ -953,9 +958,9 @@ export const translations = {
             description:
               "Refonte de l'application métier de la BOA (Bank of Africa). Intervenu sur la modernisation de l'architecture back-end avec Java & Spring Boot, j'ai conçu et optimisé plusieurs services métiers critiques pour améliorer la performance et la fiabilité du système.",
             subInfos: [
-              "Conception et implémentation d'une nouvelle architecture microservices",
-              "Optimisation des performances avec mise en cache Redis et indexation Elasticsearch",
-              "Mise en place de tests automatisés et intégration continue avec Jenkins",
+              // "Conception et implémentation d'une nouvelle architecture microservices",
+              // "Optimisation des performances avec mise en cache Redis et indexation Elasticsearch",
+              // "Mise en place de tests automatisés et intégration continue avec Jenkins",
             ],
           },
           {
@@ -977,9 +982,9 @@ export const translations = {
             description:
               "Développement frontal d'une plateforme de gestion de la chaîne d'approvisionnement personnalisée, adaptée aux secteurs des biens de consommation à rotation rapide et de l'hôtellerie, en utilisant Angular, en améliorant la conception de l'interface utilisateur et l'interaction pour une meilleure convivialité.",
             subInfos: [
-              "Développement de composants Angular réutilisables et modulaires",
-              "Optimisation des performances frontend avec lazy loading et SSR",
-              "Intégration de visualisations de données avec D3.js et NgRx pour la gestion d'état",
+              // "Développement de composants Angular réutilisables et modulaires",
+              // "Optimisation des performances frontend avec lazy loading et SSR",
+              // "Intégration de visualisations de données avec D3.js et NgRx pour la gestion d'état",
             ],
           },
           {
@@ -989,9 +994,9 @@ export const translations = {
             description:
               "Développement d'une application web de gestion des ressources humaines avec Spring Boot et Angular. Implémentation de fonctionnalités clés comme le suivi des congés, la gestion des performances et le reporting.",
             subInfos: [
-              "Création d'une architecture full-stack moderne avec Spring Boot et Angular",
-              "Mise en place d'une base de données PostgreSQL avec gestion des migrations",
-              "Développement d'un système de reporting avancé avec JasperReports",
+              // "Création d'une architecture full-stack moderne avec Spring Boot et Angular",
+              // "Mise en place d'une base de données PostgreSQL avec gestion des migrations",
+              // "Développement d'un système de reporting avancé avec JasperReports",
             ],
           },
         ],
@@ -1000,15 +1005,15 @@ export const translations = {
         title: "Formation",
         items: [
           {
-            degree: "Master en Administration des Affaires (MBA)",
-            school: "École de Commerce",
-            period: "2008 - 2012",
+            degree: "Master en Ingénieurie logiciel",
+            school: "Université Cheikh Hamidou Kane",
+            period: "2024 - Present",
             description:
-              "Spécialisé en Gestion de la Technologie et Analyse d'Affaires. Diplômé avec mention. Le programme s'est concentré sur le rapprochement de la technologie et de la stratégie commerciale, offrant une compréhension complète de la façon de tirer parti de la technologie pour la croissance et l'innovation des entreprises.",
+              "Concentration sur l'ingénierie logicielle et les systèmes d'information d'entreprise. Les cours comprenaient la programmation avancée, la conception de bases de données, l'architecture de systèmes et la modélisation des processus d'entreprise, fournissant une base solide pour le développement de logiciels d'entreprise.",
           },
           {
-            degree: "Licence Mathématiques et Innformatiques",
-            school: "Université Virtuelle du Sénégal",
+            degree: "Licence Mathématiques et Informatiques",
+            school: "Université Cheikh Hamidou Kane",
             period: "Jan 2020 - Feb 2023",
             description:
               "Concentration sur l'ingénierie logicielle et les systèmes d'information d'entreprise. Les cours comprenaient la programmation avancée, la conception de bases de données, l'architecture de systèmes et la modélisation des processus d'entreprise, fournissant une base solide pour le développement de logiciels d'entreprise.",
@@ -1027,6 +1032,11 @@ export const translations = {
       certifications: {
         title: "Certifications",
         items: [
+          {
+            name: "Full-Stack Java Developer",
+            issuer: "SarayaTech Senegal",
+            year: "2022",
+          },
           // {
           //   name: "AWS Certified Solutions Architect",
           //   issuer: "Amazon Web Services",

@@ -356,7 +356,7 @@ export default function Home() {
       </section>
 
       {/* Blog Section */}
-      <section className="py-16 md:py-24">
+      {/* <section className="py-16 md:py-24">
         <div className="section-container">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">{t("home.blog.title")}</h2>
@@ -424,7 +424,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 hero-gradient text-white relative">
