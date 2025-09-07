@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image"
 import Link from "next/link"
@@ -226,7 +226,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <ProjectCard
+            {/* <ProjectCard
               title="E-Commerce Platform"
               description="A scalable e-commerce solution that increased sales by 40% and improved customer retention"
               tags={["React", "Node.js", "MongoDB"]}
@@ -238,7 +238,7 @@ export default function Home() {
               description="Real-time data visualization platform that helped reduce decision-making time by 60%"
               tags={["Next.js", "D3.js", "PostgreSQL"]}
               imageUrl="/placeholder.svg?height=400&width=600"
-              link="/works/analytics"
+              link="/works/analytics-dashboard"
             />
             <ProjectCard
               title="Supply Chain Management"
@@ -246,7 +246,7 @@ export default function Home() {
               tags={["React", "GraphQL", "AWS"]}
               imageUrl="/placeholder.svg?height=400&width=600"
               link="/works/supply-chain"
-            />
+            /> */}
           </div>
         </div>
       </section>
@@ -311,7 +311,7 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="space-y-1">
                   <div className="flex justify-between">
-                    <span>Node.js & Express / Java & Spring Boot</span>
+                    <span>NestJS / Java & Spring Boot</span>
                     <span className="text-secondary">90%</span>
                   </div>
                   <div className="w-full bg-background rounded-full h-2">

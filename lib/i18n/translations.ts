@@ -74,10 +74,10 @@ export const translations = {
     about: {
       title: "About Me",
       intro: {
-        p1: "👋 Hello! I'm Saïfoulaye Diallo, a Software Engineer. I build scalable, user-friendly applications that bridge the gap between technical needs and business goals. My expertise spans Java (Spring Boot), Microservices, and modern front-end technologies like React and Angular. I've contributed to a wide range of projects—from small applications to complex, enterprise-level systems.",
-        p2: "💡 My journey in software development began when I was in college, where I built small websites for local businesses. Since then, I've worked with startups and large enterprises to create scalable, user-friendly applications.",
-        p3: "🧠 When I'm not coding, I enjoy writing technical articles, contributing to open source projects, and mentoring aspiring developers. I believe in continuous learning and sharing knowledge with the community.",
-        p4: "🌱 This website serves as my digital garden where I document my learning journey and share insights about web development, software architecture, and best practices.",
+        p1: "👋 Hi, I’m Saïfoulaye Diallo, a Software Engineer passionate about building scalable, high-performing, and user-friendly applications. My expertise spans the Java ecosystem (Spring Boot), microservices architectures, as well as modern front-end technologies like React and Angular. I’ve contributed to diverse projects, from small-scale applications to enterprise-grade systems.",
+        p2: "💡 My journey in software development began at university, where I created small websites for local businesses. Since then, I’ve worked with both startups and large organizations such as BOA Group, developing robust solutions tailored to business needs.",
+        p3: "🧠 I strongly believe in continuous learning, clean architecture, and knowledge sharing. Beyond coding, I enjoy writing technical articles and mentoring aspiring developers.",
+        p4: "🌱 This website is my digital garden—a space where I document my journey, share insights on software development, architecture, and best practices, while growing alongside the tech community.",
       },
       experience: {
         title: "Work Experience",
@@ -298,6 +298,7 @@ export const translations = {
       client: "Client",
       duration: "Duration",
       completed: "Completed",
+      noProjects: "No projects available at the moment.",
     },
     // Skills page
     skills: {
@@ -316,31 +317,37 @@ export const translations = {
             { name: "Responsive Design", level: "90%" },
             { name: "Progressive Web Apps", level: "85%" },
             { name: "Web Accessibility (WCAG)", level: "80%" },
-            { name: "Figma", level: "85%" },
+            { name: "Figma", level: "70%" },
             { name: "Web Performance Optimization", level: "90%" },
           ],
         },
         backend: {
           title: "Backend Development",
           skills: [
-            { name: "Java - J2EE - Spring Boot - Spring Cloud", level: "90%" },
+            {
+              name: "Java - J2EE - Spring - Spring Boot - Spring Cloud",
+              level: "90%",
+            },
             { name: "NestJS - Node.js & Express", level: "90%" },
-            { name: "RESTful APIs / GraphQL", level: "95%" },
-            { name: "Microservices - Event-Driven Architecture", level: "90%" },
+            { name: "RESTful APIs / GraphQL / gRPC", level: "95%" },
+            {
+              name: "Modular Monolithic - Microservices - Event-Driven Architecture",
+              level: "90%",
+            },
             { name: "RabbitMQ - Kafka - ActiveMQ", level: "85%" },
             { name: "Testing (JUnit - Mockito)", level: "90%" },
             { name: "Swagger - OpenAPI", level: "90%" },
             { name: "MySQL - Redis - Oracle - PostgreSQL", level: "90%" },
-            { name: "Authentication - Security", level: "85%" },
+            { name: "JWT - OAuth - OpenID Connect - Security", level: "85%" },
           ],
         },
         devops: {
           title: "DevOps",
           skills: [
-            { name: "AWS - GCP - Vercel - Netlify", level: "90%" },
+            { name: "AWS - GCP - Netlify", level: "90%" },
             { name: "Kubernetes - Docker ", level: "85%" },
             {
-              name: "CI/CD (Jenkins & GitHub Actions & Travis CI)",
+              name: "CI/CD (Jenkins & GitHub Actions & Gitlab CI)",
               level: "90%",
             },
             { name: "Monitoring (Prometheus & Grafana)", level: "85%" },
@@ -355,11 +362,9 @@ export const translations = {
               level: "90%",
             },
             { name: "Database Design", level: "85%" },
-            { name: "Data Modeling", level: "85%" },
             { name: "Stored Procedures", level: "80%" },
             { name: "Database Optimization", level: "85%" },
             { name: "Data Migration", level: "80%" },
-            { name: "ETL Processes", level: "80%" },
           ],
         },
       },
@@ -676,10 +681,10 @@ export const translations = {
     about: {
       title: "À Propos de Moi",
       intro: {
-        p1: "👋 Bonjour! Je suis Saïfoulaye Diallo, Ingénieur logicel. je me spécialise dans la création d’applications scalables et conviviales, pensées pour répondre aux besoins techniques tout en soutenant les objectifs métiers. Mon expertise couvre Java (Spring Boot), les architectures Microservices, ainsi que les technologies front-end telles que React et Angular. J’ai participé à des projets variés, allant d’applications à petite échelle à des systèmes complexes de niveau entreprise.",
-        p2: "💡 Mon parcours dans le développement logiciel a commencé lorsque j'étais à l'université, où j'ai créé de petits sites web pour des entreprises locales. Depuis, j'ai travaillé avec des startups et de grandes entreprises comme BOA Group pour créer des applications évolutives et conviviales.",
-        p3: "🧠 Je crois profondément en l’apprentissage continu, l’architecture propre et le partage de connaissances. Quand je ne code pas, j'aime écrire des articles techniques, encadrer des développeurs en herbe. Je crois en l'apprentissage continu et au partage des connaissances avec la communauté.",
-        p4: "🌱 Ce site est mon jardin numérique un espace où je documente mon parcours, partage des réflexions sur le développement logiciel, l’architecture, les bonnes pratiques, et évolue aux côtés de la communauté tech.",
+        p1: "👋 Bonjour, je suis Saïfoulaye Diallo, Ingénieur logiciel passionné par la conception et le développement d’applications scalables, performantes et centrées sur l’utilisateur. Mon expertise s’étend de l’écosystème Java (Spring Boot) et des architectures microservices aux technologies front-end modernes comme React et Angular. J’ai eu l’opportunité de contribuer à des projets variés, allant d’applications locales à des systèmes complexes de niveau entreprise.",
+        p2: "💡 Mon aventure dans le développement a commencé à l’université, où je réalisais de petits sites web pour des entreprises locales. Depuis, j’ai accompagné aussi bien des startups que de grands groupes tels que BOA Group, en développant des solutions robustes et adaptées aux besoins métiers.",
+        p3: "🧠 Convaincu de la valeur de l’apprentissage continu, de l’architecture propre et du partage de connaissances, j’aime transmettre mon expérience à travers des articles techniques et le mentorat de jeunes développeurs.",
+        p4: "🌱 Ce site est mon espace numérique : un lieu où je documente mon parcours, partage mes réflexions sur le développement logiciel, l’architecture et les bonnes pratiques, tout en évoluant aux côtés de la communauté tech.",
       },
       experience: {
         title: "Expérience Professionnelle",
@@ -822,81 +827,117 @@ export const translations = {
       title: "Mes Projets",
       description:
         "Une vitrine de solutions d'entreprise qui offrent des résultats mesurables et stimulent la croissance en connectant la technologie aux besoins commerciaux.",
+      backToAllProjects: "Retour à tous les projets",
+      overview: "Aperçu",
+      challenge: "Défi",
+      solution: "Solution",
+      results: "Résultats",
+      keyIssues: "Problématiques Clés",
+      keyFeatures: "Fonctionnalités Clés",
+      technologies: "Technologies",
+      projectLinks: "Liens du Projet",
+      interestedInSimilarProject: "Intéressé par un projet similaire ?",
+      interestedInSimilarProjectDescription:
+        "Discutons de la manière dont je peux vous aider à atteindre vos objectifs commerciaux avec une solution personnalisée adaptée à vos besoins spécifiques.",
+      contactMe: "Contactez-moi",
+      similarProjects: "Projets Similaires",
+      client: "Client",
+      duration: "Durée",
+      completed: "Terminé",
+      noProjects: "Aucun projet disponible pour le moment.",
     },
     // Skills page
     skills: {
       title: "Mes Compétences",
-      description:
-        "Expertise technique et sens des affaires pour fournir des solutions qui relient la technologie et les besoins commerciaux, créant des solutions évolutives centrées sur l'utilisateur.",
+      description: 
+      "Expertise technique pointue et compréhension approfondie des enjeux business pour créer des solutions innovantes, évolutives et centrées utilisateur qui génèrent une réelle valeur ajoutée.",
       technical: {
-        title: "Compétences Techniques",
-        frontend: {
-          title: "Développement Frontend",
-          skills: [
-            { name: "React & Next.js / Angular", level: "95%" },
-            { name: "JavaScript, TypeScript", level: "90%" },
-            { name: "HTML/CSS/Tailwind", level: "95%" },
-            { name: "Redux & Context API", level: "85%" },
-            { name: "Design Responsive", level: "90%" },
-          ],
-        },
-        backend: {
-          title: "Développement Backend",
-          skills: [
-            { name: "Java, J2EE & Spring Boot, Jhispter", level: "90%" },
-            { name: "NestJS", level: "90%" },
-            { name: "APIs RESTful", level: "95%" },
-            { name: "GraphQL", level: "85%" },
-            { name: "Authentification & Sécurité", level: "85%" },
-          ],
-        },
-        devops: {
-          title: "DevOps",
-          skills: [
-            { name: "AWS, GCP, Netlify, Vercel", level: "90%" },
-            { name: "Docker, Kubernetes", level: "85%" },
-            { name: "CI/CD, Pipelines", level: "90%" },
-            { name: "Git & GitHub", level: "95%" },
-            { name: "Tests (Jest, Cypress)", level: "85%" },
-          ],
-        },
-        database: {
-          title: "Gestion des bases de données",
-          skills: [
-            {
-              name: "Oracle - PostgreSQL - MySQL - Redis - MongoDB",
-              level: "90%",
-            },
-            { name: "Database Design", level: "85%" },
-            { name: "Data Modeling", level: "85%" },
-            { name: "Stored Procedures", level: "80%" },
-            { name: "Database Optimization", level: "85%" },
-            { name: "Data Migration", level: "80%" },
-          ],
-        },
-      },
-      business: {
-        title: "Compétences en Affaires",
+      title: "Compétences Techniques",
+      frontend: {
+        title: "Développement Frontend",
         skills: [
-          {
-            title: "Résolution de Problèmes",
-            description:
-              "Identifier les défis commerciaux et développer des solutions techniques efficaces.",
-          },
-          {
-            title: "Planification Stratégique",
-            description:
-              "Développer des feuilles de route technologiques alignées sur les objectifs commerciaux et les cibles de croissance.",
-          },
-          {
-            title: "Communication Client",
-            description:
-              "Traduire les concepts techniques en langage commercial que les parties prenantes comprennent.",
-          },
+        { name: "React, Next.js & Angular", level: "95%", years: "4+" },
+        { name: "JavaScript & TypeScript", level: "90%", years: "5+" },
+        { name: "HTML5/CSS3/Tailwind/SASS", level: "95%", years: "5+" },
+        { name: "Redux, Zustand & Context API", level: "85%", years: "3+" },
+        { name: "Design Responsive & Mobile First", level: "90%", years: "4+" },
+        { name: "Web Performance & SEO", level: "85%", years: "3+" },
+        { name: "Tests (Jest, React Testing Library)", level: "85%", years: "3+" }
         ],
       },
+      backend: {
+        title: "Développement Backend",
+        skills: [
+        { name: "Java/J2EE, Spring Boot & Spring Cloud", level: "90%", years: "4+" },
+        { name: "NestJS & Node.js Express", level: "90%", years: "3+" }, 
+        { name: "REST, GraphQL & gRPC APIs", level: "95%", years: "4+" },
+        { name: "Microservices & Event-Driven", level: "85%", years: "3+" },
+        { name: "OAuth2, JWT & Spring Security", level: "85%", years: "3+" },
+        { name: "Tests (JUnit, Mockito, TestContainers)", level: "85%", years: "3+" }
+        ],
+      },
+      devops: {
+        title: "DevOps & Cloud",
+        skills: [
+        { name: "AWS (EC2, S3, Lambda, RDS)", level: "90%", years: "3+" },
+        { name: "Docker & Kubernetes", level: "85%", years: "2+" },
+        { name: "CI/CD (Jenkins, GitHub Actions)", level: "90%", years: "3+" },
+        { name: "Git, GitHub & GitLab", level: "95%", years: "5+" },
+        { name: "Monitoring (Prometheus, Grafana)", level: "80%", years: "2+" }
+        ],
+      },
+      database: {
+        title: "Bases de Données & Data",
+        skills: [
+        { name: "PostgreSQL, MySQL & Oracle", level: "90%", years: "4+" },
+        { name: "MongoDB & Redis", level: "85%", years: "3+" },
+        { name: "Modélisation & Optimisation", level: "85%", years: "4+" },
+        { name: "Migration & ETL", level: "80%", years: "2+" },
+        { name: "Data Analysis & Reporting", level: "80%", years: "2+" }
+        ],
+      },
+      },
+      business: {
+      title: "Compétences Business",
+      skills: [
+        {
+        title: "Analyse & Stratégie",
+        description: 
+          "Capacité à analyser les besoins business complexes et à élaborer des solutions technologiques stratégiques."
+        },
+        {
+        title: "Gestion de Projet Agile",
+        description:
+          "Expérience dans la direction de projets IT avec méthodologies Agile/Scrum et outils modernes."
+        },
+        {
+        title: "Communication",
+        description:
+          "Excellence dans la communication technique et business, facilitant la collaboration entre équipes."
+        },
+        {
+        title: "Innovation & Veille",
+        description:
+          "Veille technologique active et capacité à identifier/implémenter des solutions innovantes."
+        }
+      ],
+      },
       tools: {
-        title: "Outils & Technologies",
+      title: "Outils & Environnements",
+      categories: [
+        {
+        name: "IDE & Éditeurs",
+        tools: ["IntelliJ IDEA", "VS Code", "Eclipse"]
+        },
+        {
+        name: "Collaboration",
+        tools: ["Jira", "Confluence", "Slack", "Teams"]
+        },
+        {
+        name: "Design & UI",
+        tools: ["Figma", "Adobe XD", "Sketch"]
+        }
+      ]
       },
     },
     // Blog page

@@ -41,7 +41,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              {/* <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-md gradient-bg flex items-center justify-center text-white shrink-0">
                   <Phone size={18} />
                 </div>
@@ -49,7 +49,7 @@ export default function ContactPage() {
                   <h3 className="font-semibold">{t("contact.phone.title")}</h3>
                   <p className="text-muted-foreground">{t("contact.phone.value")}</p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="mt-8">
