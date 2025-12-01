@@ -487,11 +487,101 @@ export const translations = {
             description:
               "Developed a web application for human resources management using Spring Boot and Angular. Implemented core features like leave tracking, performance management, and advanced reporting.",
             subInfos: [
-              // "Created a modern full-stack architecture with Spring Boot and Angular",
-              // "Set up PostgreSQL database with migration handling",
+              "Created a modern full-stack architecture with Spring Boot and Angular",
+              "Set up PostgreSQL database with migration handling",
               // "Built an advanced reporting system using JasperReports",
             ],
           },
+        ],
+        volunteer: [
+          {
+            name: "Vie publique du Sénégal",
+            position: "Technical contributor - Member",
+            period: "Oct 2024 — Present",
+            description:
+              "Contributing to open-source projects and technical initiatives for public service improvement in Senegal.",
+            subInfos: [],
+          },
+          // {
+          //   name: "Jiggen Tech",
+          //   position: "Technical mentor - Member",
+          //   period: "Jan 2013 — Present",
+          //   description:
+          //     "Mentoring aspiring developers and contributing to tech community initiatives in Senegal.",
+          //   subInfos: [],
+          // },
+          // {
+          //   name: "Dakar Ruby Brigade",
+          //   position: "Admin, Member",
+          //   period: "Jan 2011 — Present",
+          //   description:
+          //     "Organizing Ruby community events, workshops, and contributing to open-source Ruby projects.",
+          //   subInfos: [],
+          // },
+          // {
+          //   name: "Weekend Startups Dakar",
+          //   position: "Technical mentor - Member",
+          //   period: "Jan 2018 — Apr 2021",
+          //   description:
+          //     "Mentoring startup founders and developers on technical best practices and architecture.",
+          //   subInfos: [],
+          // },
+        ],
+        trainerMentor: [
+          // {
+          //   name: "Force N",
+          //   position: "Mentor - Learning",
+          //   period: "Present",
+          //   location: "Dakar, Senegal",
+          //   description:
+          //     "Mentoring students in software development and providing guidance on career paths in tech.",
+          //   subInfos: [],
+          // },
+          // {
+          //   name: "Sonatel Academy",
+          //   position: "Independent speaker - Trainer",
+          //   period: "Present",
+          //   location: "Dakar, Senegal",
+          //   description:
+          //     "Delivering technical training sessions on modern web development, microservices architecture, and best practices.",
+          //   subInfos: [],
+          // },
+          // {
+          //   name: "Edacy",
+          //   position: "Trainer - Learning",
+          //   period: "Present",
+          //   location: "Dakar, Senegal",
+          //   description:
+          //     "Training students in full-stack development, focusing on practical skills and real-world projects.",
+          //   subInfos: [],
+          // },
+          // {
+          //   name: "SIR FST/UCAD",
+          //   position: "Trainer - Learning",
+          //   period: "Present",
+          //   location: "Dakar, Senegal",
+          //   description:
+          //     "Teaching software engineering courses and mentoring computer science students.",
+          //   subInfos: [],
+          // },
+          // {
+          //   name: "OpenClassrooms",
+          //   position: "Mentor - Learning",
+          //   period: "Present",
+          //   location: "Remote, Dakar, Senegal",
+          //   description:
+          //     "Providing one-on-one mentorship to students pursuing software development careers online.",
+          //   subInfos: [],
+          // },
+          // {
+          //   name: "SpringBoard",
+          //   position: "Mentor - Learning",
+          //   period: "Present",
+          //   location: "Dakar, Senegal",
+          //   description:
+          //     "Mentoring bootcamp students in software engineering and helping them transition into tech careers.",
+          //   subInfos: [],
+          // },
         ],
       },
       education: {
@@ -607,6 +697,100 @@ export const translations = {
       title: "BRIDGING TECHNOLOGY & BUSINESS",
       subtitle: "Creating scalable, user-centric solutions",
     },
+    // Home Page (app/page.tsx)
+    homePage: {
+      hero: {
+        greeting: "Hi, I'm",
+        subtitle:
+          "Full-Stack Software Engineer | Software Architect | Java & Spring Boot Expert",
+        stats: {
+          yearsExperience: "Years Experience",
+          projectsDelivered: "Projects Delivered",
+          technologies: "Technologies",
+          clientSatisfaction: "Client Satisfaction",
+        },
+        cta: "Explore Services",
+      },
+      portfolio: {
+        title: "Portfolio",
+        description: "Business solutions that deliver measurable results",
+      },
+      services: {
+        keyFeatures: "Key Features:",
+      },
+      about: {
+        title: "About me",
+        expertise: {
+          title: "Expertise",
+          items: {
+            item1: "Full-Stack Development (Java, Spring Boot, React, Angular)",
+            item2: "Microservices Architecture & Event-Driven Systems",
+            item3: "Cloud Solutions (AWS, Docker, Kubernetes)",
+            item4: "API Design & Integration (REST, GraphQL)",
+          },
+        },
+        experience: {
+          title: "Experience",
+          items: {
+            item1:
+              "Worked with enterprise clients (BOA Group, ENG Technologies)",
+            item2: "Led development of scalable business solutions",
+            item3: "Mentored junior developers and conducted training",
+            item4: "Delivered projects on time with high quality standards",
+          },
+        },
+        bio: "Passionate Software Engineer with 5+ years of experience building scalable, high-performing applications. Specialized in Java/Spring Boot ecosystems and modern frontend frameworks. I bridge technology and business needs, delivering solutions that drive growth and efficiency.",
+      },
+      skills: {
+        title: "Skills",
+        description:
+          "Technical expertise and interpersonal skills for delivering exceptional results",
+        technical: {
+          title: "Technical Skills",
+          description: "Technologies, frameworks, and tools I master",
+          coreTechnologies: "Core Technologies",
+        },
+        soft: {
+          title: "Soft Skills",
+          description: "Interpersonal and business competencies",
+          additional: "Additional Competencies",
+          additionalItems: [
+            "Team Leadership",
+            "Agile Methodology",
+            "Project Management",
+            "Client Relations",
+            "Technical Writing",
+            "Code Review",
+            "Mentoring",
+            "Problem Solving",
+            "Critical Thinking",
+            "Time Management",
+          ],
+        },
+      },
+      experience: {
+        title: "Experience",
+        description:
+          "Professional journey, community involvement, and knowledge sharing",
+        work: {
+          title: "Work Experience",
+          description: "Professional positions and achievements",
+          keyAchievements: "Key Achievements:",
+        },
+        volunteer: {
+          title: "Volunteer Experience",
+          description: "Community involvement and contributions",
+        },
+        trainerMentor: {
+          title: "Trainer / Mentor Experience",
+          description: "Knowledge sharing and education",
+        },
+        education: {
+          title: "Education",
+          description: "Academic qualifications and certifications",
+        },
+      },
+    },
   },
   fr: {
     // Navigation
@@ -688,6 +872,36 @@ export const translations = {
       },
       experience: {
         title: "Expérience Professionnelle",
+        topExps: [
+          {
+            title: "Ingénieur logiciel",
+            company: "BOA Group",
+            period: "Jan 2025 - Présent",
+            description:
+              "Diriger le développement d'applications SaaS cloud utilisant React, Node.js et AWS. Mise en place de pipelines CI/CD et mentorat de développeurs juniors.",
+          },
+          {
+            title: "Consultant IT",
+            company: "Eng Technologie groupe",
+            period: "2017 - 2020",
+            description:
+              "Développement et maintenance de plusieurs projets clients en utilisant des frameworks JavaScript. Collaboration avec les équipes de design et produit pour livrer des applications web de haute qualité.",
+          },
+          {
+            title: "Ingénieur Logiciel",
+            company: "Mafalia",
+            period: "Nov 2023 - Nov 2024",
+            description:
+              "Création de sites web responsives et d'interfaces interactives pour divers clients. Focus sur l'optimisation des performances et la compatibilité multi-navigateurs.",
+          },
+          {
+            title: "Développeur Full-Stack",
+            company: "SarayaTech Senegal",
+            period: "Déc 2022 - Mars 2022",
+            description:
+              "Création de sites web responsives et d'interfaces interactives pour divers clients. Focus sur l'optimisation des performances et la compatibilité multi-navigateurs.",
+          },
+        ],
         job1: {
           title: "Ingénieur logicielle",
           company: "BOA (Bank of Africa) Group",
@@ -708,6 +922,13 @@ export const translations = {
           period: "Nov 2023 - Nov 2024",
           description:
             "Développement frontal d'une plateforme de gestion de la chaîne d'approvisionnement personnalisée, adaptée aux secteurs des biens de consommation à rotation rapide et de l'hôtellerie, en utilisant Angular, en améliorant la conception de l'interface utilisateur et l'interaction pour une meilleure convivialité.",
+        },
+        job4: {
+          title: "Développeur Full-Stack",
+          company: "SarayaTech Senegal",
+          period: "Déc 2022 - Mars 2022",
+          description:
+            "Création de sites web responsives et d'interfaces interactives pour divers clients. Focus sur l'optimisation des performances et la compatibilité multi-navigateurs.",
         },
       },
       skills: {
@@ -740,6 +961,23 @@ export const translations = {
             "CI/CD, Pipelines",
             "Git / GitHub, Gitlab",
             "Testing (Jest, Cypress)",
+          ],
+        },
+        tools: {
+          title: "Outils & Technologies",
+          items: [
+            "Visual Studio Code / IntelliJ IDEA / Eclipse",
+            "Postman / Insomnia",
+            "Figma",
+            "Slack / Microsoft Teams",
+            "Notion / Confluence",
+            "Trello / JIRA",
+            "Docker Desktop / Docker Compose",
+            "Splunk / Graylog",
+            "Sentry / New Relic",
+            "JMeter / Gatling / Locust",
+            "SonarQube / ESLint / PMD",
+            "Automatisation de Build (Maven / Gradle / NPM / YARN / PNPM)",
           ],
         },
       },
@@ -787,26 +1025,25 @@ export const translations = {
           ],
         },
         {
-          title: "Déploiement & DevOps",
-          description:
-            "Automatiser le déploiement, la surveillance et la scalabilité avec les outils DevOps modernes.",
-          features: [
-            "Pipelines CI/CD (GitHub Actions, GitLab CI, Bitbucket Pipelines)",
-            "Conteneurisation avec Docker",
-            "Déploiement sur GCP, AWS, Azure ou VPS",
-            "Monitoring & alertes (Grafana, Prometheus, Uptime Robot)",
-          ],
-        },
-        {
           title: "Conseil Technique",
           description:
             "Aider à faire les bons choix techniques pour une base fiable, évolutive et sécurisée.",
           features: [
             "Évaluation de la stack technologique",
-            "Conception d’architecture scalable (Hexagonale, Microservices…)",
+            "Conception d'architecture scalable (Hexagonale, Microservices…)",
             "Revues et audits de code",
             "Optimisation des performances",
             "Évaluations de sécurité",
+          ],
+        },
+        {
+          title: "Transformation Numérique",
+          description:
+            "Aider les entreprises à exploiter la technologie pour transformer les opérations et créer de nouvelles opportunités.",
+          features: [
+            "Automatisation des processus",
+            "Modernisation des systèmes hérités",
+            "Optimisation des flux de travail numériques",
           ],
         },
         {
@@ -849,95 +1086,123 @@ export const translations = {
     // Skills page
     skills: {
       title: "Mes Compétences",
-      description: 
-      "Expertise technique pointue et compréhension approfondie des enjeux business pour créer des solutions innovantes, évolutives et centrées utilisateur qui génèrent une réelle valeur ajoutée.",
+      description:
+        "Expertise technique pointue et compréhension approfondie des enjeux business pour créer des solutions innovantes, évolutives et centrées utilisateur qui génèrent une réelle valeur ajoutée.",
       technical: {
-      title: "Compétences Techniques",
-      frontend: {
-        title: "Développement Frontend",
-        skills: [
-        { name: "React, Next.js & Angular", level: "95%", years: "4+" },
-        { name: "JavaScript & TypeScript", level: "90%", years: "5+" },
-        { name: "HTML5/CSS3/Tailwind/SASS", level: "95%", years: "5+" },
-        { name: "Redux, Zustand & Context API", level: "85%", years: "3+" },
-        { name: "Design Responsive & Mobile First", level: "90%", years: "4+" },
-        { name: "Web Performance & SEO", level: "85%", years: "3+" },
-        { name: "Tests (Jest, React Testing Library)", level: "85%", years: "3+" }
-        ],
-      },
-      backend: {
-        title: "Développement Backend",
-        skills: [
-        { name: "Java/J2EE, Spring Boot & Spring Cloud", level: "90%", years: "4+" },
-        { name: "NestJS & Node.js Express", level: "90%", years: "3+" }, 
-        { name: "REST, GraphQL & gRPC APIs", level: "95%", years: "4+" },
-        { name: "Microservices & Event-Driven", level: "85%", years: "3+" },
-        { name: "OAuth2, JWT & Spring Security", level: "85%", years: "3+" },
-        { name: "Tests (JUnit, Mockito, TestContainers)", level: "85%", years: "3+" }
-        ],
-      },
-      devops: {
-        title: "DevOps & Cloud",
-        skills: [
-        { name: "AWS (EC2, S3, Lambda, RDS)", level: "90%", years: "3+" },
-        { name: "Docker & Kubernetes", level: "85%", years: "2+" },
-        { name: "CI/CD (Jenkins, GitHub Actions)", level: "90%", years: "3+" },
-        { name: "Git, GitHub & GitLab", level: "95%", years: "5+" },
-        { name: "Monitoring (Prometheus, Grafana)", level: "80%", years: "2+" }
-        ],
-      },
-      database: {
-        title: "Bases de Données & Data",
-        skills: [
-        { name: "PostgreSQL, MySQL & Oracle", level: "90%", years: "4+" },
-        { name: "MongoDB & Redis", level: "85%", years: "3+" },
-        { name: "Modélisation & Optimisation", level: "85%", years: "4+" },
-        { name: "Migration & ETL", level: "80%", years: "2+" },
-        { name: "Data Analysis & Reporting", level: "80%", years: "2+" }
-        ],
-      },
+        title: "Compétences Techniques",
+        frontend: {
+          title: "Développement Frontend",
+          skills: [
+            { name: "React, Next.js & Angular", level: "95%", years: "4+" },
+            { name: "JavaScript & TypeScript", level: "90%", years: "5+" },
+            { name: "HTML5/CSS3/Tailwind/SASS", level: "95%", years: "5+" },
+            { name: "Redux, Zustand & Context API", level: "85%", years: "3+" },
+            {
+              name: "Design Responsive & Mobile First",
+              level: "90%",
+              years: "4+",
+            },
+            { name: "Web Performance & SEO", level: "85%", years: "3+" },
+            {
+              name: "Tests (Jest, React Testing Library)",
+              level: "85%",
+              years: "3+",
+            },
+          ],
+        },
+        backend: {
+          title: "Développement Backend",
+          skills: [
+            {
+              name: "Java/J2EE, Spring Boot & Spring Cloud",
+              level: "90%",
+              years: "4+",
+            },
+            { name: "NestJS & Node.js Express", level: "90%", years: "3+" },
+            { name: "REST, GraphQL & gRPC APIs", level: "95%", years: "4+" },
+            { name: "Microservices & Event-Driven", level: "85%", years: "3+" },
+            {
+              name: "OAuth2, JWT & Spring Security",
+              level: "85%",
+              years: "3+",
+            },
+            {
+              name: "Tests (JUnit, Mockito, TestContainers)",
+              level: "85%",
+              years: "3+",
+            },
+          ],
+        },
+        devops: {
+          title: "DevOps & Cloud",
+          skills: [
+            { name: "AWS (EC2, S3, Lambda, RDS)", level: "90%", years: "3+" },
+            { name: "Docker & Kubernetes", level: "85%", years: "2+" },
+            {
+              name: "CI/CD (Jenkins, GitHub Actions)",
+              level: "90%",
+              years: "3+",
+            },
+            { name: "Git, GitHub & GitLab", level: "95%", years: "5+" },
+            {
+              name: "Monitoring (Prometheus, Grafana)",
+              level: "80%",
+              years: "2+",
+            },
+          ],
+        },
+        database: {
+          title: "Bases de Données & Data",
+          skills: [
+            { name: "PostgreSQL, MySQL & Oracle", level: "90%", years: "4+" },
+            { name: "MongoDB & Redis", level: "85%", years: "3+" },
+            { name: "Modélisation & Optimisation", level: "85%", years: "4+" },
+            { name: "Migration & ETL", level: "80%", years: "2+" },
+            { name: "Data Analysis & Reporting", level: "80%", years: "2+" },
+          ],
+        },
       },
       business: {
-      title: "Compétences Business",
-      skills: [
-        {
-        title: "Analyse & Stratégie",
-        description: 
-          "Capacité à analyser les besoins business complexes et à élaborer des solutions technologiques stratégiques."
-        },
-        {
-        title: "Gestion de Projet Agile",
-        description:
-          "Expérience dans la direction de projets IT avec méthodologies Agile/Scrum et outils modernes."
-        },
-        {
-        title: "Communication",
-        description:
-          "Excellence dans la communication technique et business, facilitant la collaboration entre équipes."
-        },
-        {
-        title: "Innovation & Veille",
-        description:
-          "Veille technologique active et capacité à identifier/implémenter des solutions innovantes."
-        }
-      ],
+        title: "Compétences Business",
+        skills: [
+          {
+            title: "Analyse & Stratégie",
+            description:
+              "Capacité à analyser les besoins business complexes et à élaborer des solutions technologiques stratégiques.",
+          },
+          {
+            title: "Gestion de Projet Agile",
+            description:
+              "Expérience dans la direction de projets IT avec méthodologies Agile/Scrum et outils modernes.",
+          },
+          {
+            title: "Communication",
+            description:
+              "Excellence dans la communication technique et business, facilitant la collaboration entre équipes.",
+          },
+          {
+            title: "Innovation & Veille",
+            description:
+              "Veille technologique active et capacité à identifier/implémenter des solutions innovantes.",
+          },
+        ],
       },
       tools: {
-      title: "Outils & Environnements",
-      categories: [
-        {
-        name: "IDE & Éditeurs",
-        tools: ["IntelliJ IDEA", "VS Code", "Eclipse"]
-        },
-        {
-        name: "Collaboration",
-        tools: ["Jira", "Confluence", "Slack", "Teams"]
-        },
-        {
-        name: "Design & UI",
-        tools: ["Figma", "Adobe XD", "Sketch"]
-        }
-      ]
+        title: "Outils & Environnements",
+        categories: [
+          {
+            name: "IDE & Éditeurs",
+            tools: ["IntelliJ IDEA", "VS Code", "Eclipse"],
+          },
+          {
+            name: "Collaboration",
+            tools: ["Jira", "Confluence", "Slack", "Teams"],
+          },
+          {
+            name: "Design & UI",
+            tools: ["Figma", "Adobe XD", "Sketch"],
+          },
+        ],
       },
     },
     // Blog page
@@ -1035,10 +1300,100 @@ export const translations = {
             description:
               "Développement d'une application web de gestion des ressources humaines avec Spring Boot et Angular. Implémentation de fonctionnalités clés comme le suivi des congés, la gestion des performances et le reporting.",
             subInfos: [
-              // "Création d'une architecture full-stack moderne avec Spring Boot et Angular",
-              // "Mise en place d'une base de données PostgreSQL avec gestion des migrations",
+              "Création d'une architecture full-stack moderne avec Spring Boot et Angular",
+              "Mise en place d'une base de données PostgreSQL avec gestion des migrations",
               // "Développement d'un système de reporting avancé avec JasperReports",
             ],
+          },
+        ],
+        volunteer: [
+          {
+            name: "Vie publique du Sénégal",
+            position: "Contributeur technique - Membre",
+            period: "Oct 2024 — Présent",
+            description:
+              "Contribution à des projets open-source et initiatives techniques pour l'amélioration des services publics au Sénégal.",
+            subInfos: [],
+          },
+          {
+            name: "Jiggen Tech",
+            position: "Mentor technique - Membre",
+            period: "Jan 2013 — Présent",
+            description:
+              "Mentorat de développeurs en devenir et contribution aux initiatives de la communauté tech au Sénégal.",
+            subInfos: [],
+          },
+          {
+            name: "Dakar Ruby Brigade",
+            position: "Admin, Membre",
+            period: "Jan 2011 — Présent",
+            description:
+              "Organisation d'événements et d'ateliers de la communauté Ruby, contribution à des projets Ruby open-source.",
+            subInfos: [],
+          },
+          {
+            name: "Weekend Startups Dakar",
+            position: "Mentor technique - Membre",
+            period: "Jan 2018 — Avr 2021",
+            description:
+              "Mentorat de fondateurs de startups et développeurs sur les meilleures pratiques techniques et l'architecture.",
+            subInfos: [],
+          },
+        ],
+        trainerMentor: [
+          {
+            name: "Force N",
+            position: "Mentor - Apprentissage",
+            period: "Présent",
+            location: "Dakar, Senegal",
+            description:
+              "Mentorat d'étudiants en développement logiciel et orientation sur les parcours de carrière dans la tech.",
+            subInfos: [],
+          },
+          {
+            name: "Sonatel Academy",
+            position: "Conférencier indépendant - Formateur",
+            period: "Présent",
+            location: "Dakar, Senegal",
+            description:
+              "Animation de sessions de formation technique sur le développement web moderne, l'architecture microservices et les meilleures pratiques.",
+            subInfos: [],
+          },
+          {
+            name: "Edacy",
+            position: "Formateur - Apprentissage",
+            period: "Présent",
+            location: "Dakar, Senegal",
+            description:
+              "Formation d'étudiants en développement full-stack, axée sur les compétences pratiques et les projets réels.",
+            subInfos: [],
+          },
+          {
+            name: "SIR FST/UCAD",
+            position: "Formateur - Apprentissage",
+            period: "Présent",
+            location: "Dakar, Senegal",
+            description:
+              "Enseignement de cours d'ingénierie logicielle et mentorat d'étudiants en informatique.",
+            subInfos: [],
+          },
+          {
+            name: "OpenClassrooms",
+            position: "Mentor - Apprentissage",
+            period: "Présent",
+            location: "Remote, Dakar, Senegal",
+            description:
+              "Mentorat individuel d'étudiants poursuivant des carrières en développement logiciel en ligne.",
+            subInfos: [],
+          },
+          {
+            name: "SpringBoard",
+            position: "Mentor - Apprentissage",
+            period: "Présent",
+            location: "Dakar, Senegal",
+            description:
+              "Mentorat d'étudiants de bootcamp en ingénierie logicielle et aide à leur transition vers des carrières dans la tech.",
+            subInfos: [],
           },
         ],
       },
@@ -1153,6 +1508,103 @@ export const translations = {
     preloader: {
       title: "RELIER TECHNOLOGIE & BUSINESS",
       subtitle: "Créer des solutions évolutives centrées sur l'utilisateur",
+    },
+    // Home Page (app/page.tsx)
+    homePage: {
+      hero: {
+        greeting: "Bonjour, je suis",
+        subtitle:
+          "Ingénieur Architecte Logiciel | Développeur Full Stack Java & Spring Boot | React & Angular",
+        stats: {
+          yearsExperience: "Années d'Expérience",
+          projectsDelivered: "Projets Livrés",
+          technologies: "Technologies",
+          clientSatisfaction: "Satisfaction Client",
+        },
+        cta: "Explorer les Services",
+      },
+      portfolio: {
+        title: "Réalisations",
+        description:
+          "Solutions business qui apportent des résultats mesurables",
+      },
+      services: {
+        keyFeatures: "Fonctionnalités Clés:",
+      },
+      about: {
+        title: "À propos de moi",
+        expertise: {
+          title: "Expertise",
+          items: {
+            item1:
+              "Développement Full-Stack (Java, Spring Boot, React, Angular)",
+            item2: "Architecture Microservices & Systèmes Event-Driven",
+            item3: "Solutions Cloud (AWS, Docker, Kubernetes)",
+            item4: "Conception & Intégration d'API (REST, GraphQL)",
+          },
+        },
+        experience: {
+          title: "Expérience",
+          items: {
+            item1:
+              "Travail avec des clients entreprise (BOA Group, ENG Technologies)",
+            item2: "Dirigé le développement de solutions business scalables",
+            item3: "Mentoré des développeurs juniors et animé des formations",
+            item4:
+              "Livré des projets à temps avec des standards de qualité élevés",
+          },
+        },
+        bio: "Ingénieur Logiciel passionné avec 5+ ans d'expérience dans la construction d'applications scalables et performantes. Spécialisé dans les écosystèmes Java/Spring Boot et les frameworks frontend modernes. Je fais le pont entre la technologie et les besoins business, en livrant des solutions qui stimulent la croissance et l'efficacité.",
+      },
+      skills: {
+        title: "Compétences",
+        description:
+          "Expertise technique et compétences interpersonnelles pour livrer des résultats exceptionnels",
+        technical: {
+          title: "Compétences Techniques",
+          description: "Technologies, frameworks et outils que je maîtrise",
+          coreTechnologies: "Technologies Principales",
+        },
+        soft: {
+          title: "Compétences Douces",
+          description: "Compétences interpersonnelles et business",
+          additional: "Compétences Supplémentaires",
+          additionalItems: [
+            "Leadership d'Équipe",
+            "Méthodologie Agile",
+            "Gestion de Projet",
+            "Relations Clients",
+            "Rédaction Technique",
+            "Revue de Code",
+            "Mentorat",
+            "Résolution de Problèmes",
+            "Pensée Critique",
+            "Gestion du Temps",
+          ],
+        },
+      },
+      experience: {
+        title: "Expérience",
+        description:
+          "Parcours professionnel, implication communautaire et partage de connaissances",
+        work: {
+          title: "Expérience Professionnelle",
+          description: "Postes professionnels et réalisations",
+          keyAchievements: "Réalisations Clés:",
+        },
+        volunteer: {
+          title: "Expérience Bénévole",
+          description: "Implication communautaire et contributions",
+        },
+        trainerMentor: {
+          title: "Expérience Formateur / Mentor",
+          description: "Partage de connaissances et éducation",
+        },
+        education: {
+          title: "Formation",
+          description: "Qualifications académiques et certifications",
+        },
+      },
     },
   },
 };

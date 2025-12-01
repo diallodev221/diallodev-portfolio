@@ -18,19 +18,40 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { name: t("nav.about"), href: "/about" },
-    { name: t("nav.services"), href: "/services" },
-    { name: t("nav.works"), href: "/works" },
-    { name: t("nav.skills"), href: "/skills" },
-    { name: t("nav.resume"), href: "/resume" },
-    { name: t("nav.contact"), href: "/contact" },
+    { name: t("nav.services"), href: "#services" },
+    { name: t("nav.works"), href: "#works" },
+    { name: t("nav.skills"), href: "#skills" },
+    { name: t("nav.about"), href: "#about" },
+    { name: t("nav.resume"), href: "#experience" },
+    { name: t("nav.contact"), href: "#contact" },
   ];
 
+  const handleNavClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
+    if (href.startsWith("#")) {
+      e.preventDefault();
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+        setMobileMenuOpen(false);
+      }
+    }
+  };
+
   return (
-    <header className="w-full py-4 border-b">
+    <header className="w-full py-4 border-b sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Link href="/" className="flex items-center">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            className="flex items-center"
+          >
             <Image
               src={"/logo.png"}
               alt="Diallodev"
@@ -41,30 +62,40 @@ export default function Navbar() {
             <span className="ml-2 hidden sm:inline-block text-sm">
               Diallodev
             </span>
-          </Link>
+          </a>
         </div>
 
         {/* Desktop navigation */}
         <nav className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
-            <Link
+            <a
               key={item.href}
               href={item.href}
+              onClick={(e) => handleNavClick(e, item.href)}
               className={cn(
-                "text-sm font-medium transition-colors hover:text-primary",
+                "text-sm font-medium transition-colors hover:text-primary cursor-pointer",
                 pathname === item.href
                   ? "text-primary font-semibold"
                   : "text-foreground"
               )}
             >
               {item.name}
-            </Link>
+            </a>
           ))}
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild className="rounded-md gradient-bg">
-            <Link href="/contact">{t("nav.hireMe")}</Link>
+          <Button
+            className="rounded-md gradient-bg"
+            onClick={(e) => {
+              e.preventDefault();
+              const element = document.querySelector("#contact");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth", block: "start" });
+              }
+            }}
+          >
+            {t("nav.hireMe")}
           </Button>
 
           <LanguageSwitcher />
@@ -105,18 +136,18 @@ export default function Navbar() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 }}
                 >
-                  <Link
+                  <a
                     href={item.href}
+                    onClick={(e) => handleNavClick(e, item.href)}
                     className={cn(
-                      "text-xl font-medium transition-colors hover:text-primary block py-2",
+                      "text-xl font-medium transition-colors hover:text-primary block py-2 cursor-pointer",
                       pathname === item.href
                         ? "text-primary font-semibold"
                         : "text-foreground"
                     )}
-                    onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.name}
-                  </Link>
+                  </a>
                 </motion.div>
               ))}
 
@@ -126,8 +157,21 @@ export default function Navbar() {
                 transition={{ delay: 0.2 }}
                 className="pt-6"
               >
-                <Button asChild className="w-full rounded-md gradient-bg">
-                  <Link href="/contact">{t("nav.hireMe")}</Link>
+                <Button
+                  className="w-full rounded-md gradient-bg"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const element = document.querySelector("#contact");
+                    if (element) {
+                      element.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                      });
+                      setMobileMenuOpen(false);
+                    }
+                  }}
+                >
+                  {t("nav.hireMe")}
                 </Button>
               </motion.div>
             </div>
