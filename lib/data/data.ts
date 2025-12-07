@@ -642,84 +642,84 @@ export const data = {
                 }
             ],
             "volunteer": [
-                {
-                    "name": "Vie publique du Sénégal",
-                    "position": "Technical contributor - Member",
-                    "period": "Oct 2024 — Present",
-                    "description": "Contributing to open-source projects and technical initiatives for public service improvement in Senegal.",
-                    "subInfos": []
-                },
-                {
-                    "name": "Jiggen Tech",
-                    "position": "Technical mentor - Member",
-                    "period": "Jan 2013 — Present",
-                    "description": "Mentoring aspiring developers and contributing to tech community initiatives in Senegal.",
-                    "subInfos": []
-                },
-                {
-                    "name": "Dakar Ruby Brigade",
-                    "position": "Admin, Member",
-                    "period": "Jan 2011 — Present",
-                    "description": "Organizing Ruby community events, workshops, and contributing to open-source Ruby projects.",
-                    "subInfos": []
-                },
-                {
-                    "name": "Weekend Startups Dakar",
-                    "position": "Technical mentor - Member",
-                    "period": "Jan 2018 — Apr 2021",
-                    "description": "Mentoring startup founders and developers on technical best practices and architecture.",
-                    "subInfos": []
-                }
+                // {
+                //     "name": "Vie publique du Sénégal",
+                //     "position": "Technical contributor - Member",
+                //     "period": "Oct 2024 — Present",
+                //     "description": "Contributing to open-source projects and technical initiatives for public service improvement in Senegal.",
+                //     "subInfos": []
+                // },
+                // {
+                //     "name": "Jiggen Tech",
+                //     "position": "Technical mentor - Member",
+                //     "period": "Jan 2013 — Present",
+                //     "description": "Mentoring aspiring developers and contributing to tech community initiatives in Senegal.",
+                //     "subInfos": []
+                // },
+                // {
+                //     "name": "Dakar Ruby Brigade",
+                //     "position": "Admin, Member",
+                //     "period": "Jan 2011 — Present",
+                //     "description": "Organizing Ruby community events, workshops, and contributing to open-source Ruby projects.",
+                //     "subInfos": []
+                // },
+                // {
+                //     "name": "Weekend Startups Dakar",
+                //     "position": "Technical mentor - Member",
+                //     "period": "Jan 2018 — Apr 2021",
+                //     "description": "Mentoring startup founders and developers on technical best practices and architecture.",
+                //     "subInfos": []
+                // }
             ],
             "trainerMentor": [
-                {
-                    "name": "Force N",
-                    "position": "Mentor - Learning",
-                    "period": "Present",
-                    "location": "Dakar, Senegal",
-                    "description": "Mentoring students in software development and providing guidance on career paths in tech.",
-                    "subInfos": []
-                },
-                {
-                    "name": "Sonatel Academy",
-                    "position": "Independent speaker - Trainer",
-                    "period": "Present",
-                    "location": "Dakar, Senegal",
-                    "description": "Delivering technical training sessions on modern web development, microservices architecture, and best practices.",
-                    "subInfos": []
-                },
-                {
-                    "name": "Edacy",
-                    "position": "Trainer - Learning",
-                    "period": "Present",
-                    "location": "Dakar, Senegal",
-                    "description": "Training students in full-stack development, focusing on practical skills and real-world projects.",
-                    "subInfos": []
-                },
-                {
-                    "name": "SIR FST/UCAD",
-                    "position": "Trainer - Learning",
-                    "period": "Present",
-                    "location": "Dakar, Senegal",
-                    "description": "Teaching software engineering courses and mentoring computer science students.",
-                    "subInfos": []
-                },
-                {
-                    "name": "OpenClassrooms",
-                    "position": "Mentor - Learning",
-                    "period": "Present",
-                    "location": "Remote, Dakar, Senegal",
-                    "description": "Providing one-on-one mentorship to students pursuing software development careers online.",
-                    "subInfos": []
-                },
-                {
-                    "name": "SpringBoard",
-                    "position": "Mentor - Learning",
-                    "period": "Present",
-                    "location": "Dakar, Senegal",
-                    "description": "Mentoring bootcamp students in software engineering and helping them transition into tech careers.",
-                    "subInfos": []
-                }
+                // {
+                //     "name": "Force N",
+                //     "position": "Mentor - Learning",
+                //     "period": "Present",
+                //     "location": "Dakar, Senegal",
+                //     "description": "Mentoring students in software development and providing guidance on career paths in tech.",
+                //     "subInfos": []
+                // },
+                // {
+                //     "name": "Sonatel Academy",
+                //     "position": "Independent speaker - Trainer",
+                //     "period": "Present",
+                //     "location": "Dakar, Senegal",
+                //     "description": "Delivering technical training sessions on modern web development, microservices architecture, and best practices.",
+                //     "subInfos": []
+                // },
+                // {
+                //     "name": "Edacy",
+                //     "position": "Trainer - Learning",
+                //     "period": "Present",
+                //     "location": "Dakar, Senegal",
+                //     "description": "Training students in full-stack development, focusing on practical skills and real-world projects.",
+                //     "subInfos": []
+                // },
+                // {
+                //     "name": "SIR FST/UCAD",
+                //     "position": "Trainer - Learning",
+                //     "period": "Present",
+                //     "location": "Dakar, Senegal",
+                //     "description": "Teaching software engineering courses and mentoring computer science students.",
+                //     "subInfos": []
+                // },
+                // {
+                //     "name": "OpenClassrooms",
+                //     "position": "Mentor - Learning",
+                //     "period": "Present",
+                //     "location": "Remote, Dakar, Senegal",
+                //     "description": "Providing one-on-one mentorship to students pursuing software development careers online.",
+                //     "subInfos": []
+                // },
+                // {
+                //     "name": "SpringBoard",
+                //     "position": "Mentor - Learning",
+                //     "period": "Present",
+                //     "location": "Dakar, Senegal",
+                //     "description": "Mentoring bootcamp students in software engineering and helping them transition into tech careers.",
+                //     "subInfos": []
+                // }
             ]
         },
         "education": {

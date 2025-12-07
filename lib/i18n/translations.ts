@@ -494,14 +494,14 @@ export const translations = {
           },
         ],
         volunteer: [
-          {
-            name: "Vie publique du Sénégal",
-            position: "Technical contributor - Member",
-            period: "Oct 2024 — Present",
-            description:
-              "Contributing to open-source projects and technical initiatives for public service improvement in Senegal.",
-            subInfos: [],
-          },
+          // {
+          //   name: "Vie publique du Sénégal",
+          //   position: "Technical contributor - Member",
+          //   period: "Oct 2024 — Present",
+          //   description:
+          //     "Contributing to open-source projects and technical initiatives for public service improvement in Senegal.",
+          //   subInfos: [],
+          // },
           // {
           //   name: "Jiggen Tech",
           //   position: "Technical mentor - Member",
