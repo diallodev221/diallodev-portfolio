@@ -25,7 +25,7 @@ import ProjectCard from "@/components/project-card";
 import TechIcon from "@/components/tech-icon";
 import { useLanguage } from "@/lib/i18n/context";
 import { motion } from "framer-motion";
-import data from "@/lib/data/data.json";
+import { data } from "@/lib/data/data";
 
 export default function Home() {
   const { t } = useLanguage();
